@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "01dc125e92b5d654f3b36e9cb9d7dfe3"
+build_time: [1527360875, 861791000]
+inputs:
+  "/Users/justinlew/Documents/SFU/CMPT276/mealify/mealify/ViewController.swift": [1527360863, 0]
+  "/Users/justinlew/Documents/SFU/CMPT276/mealify/mealify/AppDelegate.swift": [1527360863, 0]
