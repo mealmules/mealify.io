@@ -27,7 +27,6 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var oldness: UITextField!        //text field
     
     @IBAction func userOldness(_ sender: UITextField) {
-        let ageInt = Int(oldness.text!)
     }
     
     
@@ -53,23 +52,33 @@ class SecondViewController: UIViewController {
     }
     
     @IBOutlet weak var female: UIButton!            //female button
+    @IBOutlet weak var girlImage: UIImageView!
+    
     @IBAction func girl(_ sender: UIButton) {
-        female.setTitle("female selected", for: .normal)
+        girlImage.isHidden = false
         female.setTitleColor(UIColor .green, for: .normal)
         if(male.currentTitleColor == .green){
-            male.setTitle("Male", for: .normal);
             male.setTitleColor(UIColor .blue, for: .normal)
+            boyImage.isHidden = true
         }
     }
+    
+    
     @IBOutlet weak var male: UIButton!              //male button
+    @IBOutlet weak var boyImage: UIImageView!
+    
     @IBAction func boy(_ sender: UIButton) {
-        male.setTitle("male selected",for: .normal)
+        boyImage.isHidden = false
         male.setTitleColor(UIColor .green, for: .normal)
         if(female.currentTitleColor == .green){
-            female.setTitle("Female", for: .normal);
             female.setTitleColor(UIColor .blue, for: .normal)
+            girlImage.isHidden = true
         }
     }
+    
+    
+    
+    
     @IBOutlet weak var userWeight: UITextField!
     
     @IBAction func weightSlider(_ sender: UISlider) {
