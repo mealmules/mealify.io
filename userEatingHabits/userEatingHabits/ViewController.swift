@@ -57,7 +57,7 @@ class SecondViewController: UIViewController {
     @IBAction func girl(_ sender: UIButton) {
         girlImage.isHidden = false
         female.setTitleColor(UIColor .green, for: .normal)
-        if(male.currentTitleColor == .green){
+        if(male.isHidden == false){
             male.setTitleColor(UIColor .blue, for: .normal)
             boyImage.isHidden = true
         }
@@ -70,7 +70,7 @@ class SecondViewController: UIViewController {
     @IBAction func boy(_ sender: UIButton) {
         boyImage.isHidden = false
         male.setTitleColor(UIColor .green, for: .normal)
-        if(female.currentTitleColor == .green){
+        if(female.isHidden == false){
             female.setTitleColor(UIColor .blue, for: .normal)
             girlImage.isHidden = true
         }

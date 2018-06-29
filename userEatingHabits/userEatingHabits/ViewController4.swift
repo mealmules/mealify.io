@@ -12,24 +12,20 @@ class ViewController4: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBOutlet weak var ye: UIButton!
+    @IBAction func yes(_ sender: UIButton) {
+        ye.setTitleColor(UIColor .green, for: .normal)
+        if(nah.currentTitleColor == .green){
+            nah.setTitleColor(UIColor .blue, for: .normal)
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBOutlet weak var nah: UIButton!
+    @IBAction func no(_ sender: UIButton) {
+        nah.setTitleColor(UIColor .green, for: .normal)
+        if(ye.currentTitleColor == .green){
+            ye.setTitleColor(UIColor .blue, for: .normal)
+        }
     }
-    */
 
 }

@@ -16,6 +16,8 @@
 		7D72BA4F20E1D57300F4A1D3 /* userEatingHabitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72BA4E20E1D57300F4A1D3 /* userEatingHabitsUITests.swift */; };
 		7D72BA5D20E1ECCC00F4A1D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72BA5C20E1ECCC00F4A1D3 /* ViewController.swift */; };
 		7D9F36DB20E47CA900D9BD5C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F36DA20E47CA900D9BD5C /* ViewController3.swift */; };
+		7DB7350D20E6977400B295A5 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7350C20E6977400B295A5 /* ViewController5.swift */; };
+		7DB7350F20E69D4000B295A5 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7350E20E69D4000B295A5 /* ViewController6.swift */; };
 		7DFF4A6220E48AD30094882F /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF4A6120E48AD30094882F /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		7D72BA5020E1D57300F4A1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D72BA5C20E1ECCC00F4A1D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D9F36DA20E47CA900D9BD5C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		7DB7350C20E6977400B295A5 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		7DB7350E20E69D4000B295A5 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		7DFF4A6120E48AD30094882F /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,10 +112,12 @@
 				7D72BA3020E1D56F00F4A1D3 /* ViewController2.swift */,
 				7D9F36DA20E47CA900D9BD5C /* ViewController3.swift */,
 				7D72BA3220E1D56F00F4A1D3 /* Main.storyboard */,
+				7DB7350C20E6977400B295A5 /* ViewController5.swift */,
 				7D72BA3520E1D57300F4A1D3 /* Assets.xcassets */,
 				7D72BA3720E1D57300F4A1D3 /* LaunchScreen.storyboard */,
 				7D72BA3A20E1D57300F4A1D3 /* Info.plist */,
 				7DFF4A6120E48AD30094882F /* ViewController4.swift */,
+				7DB7350E20E69D4000B295A5 /* ViewController6.swift */,
 			);
 			path = userEatingHabits;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			files = (
 				7D72BA5D20E1ECCC00F4A1D3 /* ViewController.swift in Sources */,
 				7D72BA3120E1D56F00F4A1D3 /* ViewController2.swift in Sources */,
+				7DB7350F20E69D4000B295A5 /* ViewController6.swift in Sources */,
 				7D9F36DB20E47CA900D9BD5C /* ViewController3.swift in Sources */,
 				7D72BA2F20E1D56F00F4A1D3 /* AppDelegate.swift in Sources */,
+				7DB7350D20E6977400B295A5 /* ViewController5.swift in Sources */,
 				7DFF4A6220E48AD30094882F /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
