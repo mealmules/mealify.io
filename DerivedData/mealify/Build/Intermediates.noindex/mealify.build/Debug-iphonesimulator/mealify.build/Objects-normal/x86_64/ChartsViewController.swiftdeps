@@ -1,0 +1,794 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartsViewController"
+provides-nominal:
+- "7mealify20ChartsViewControllerC"
+provides-member:
+- ["7mealify20ChartsViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "lineChartView"
+- "viewDidLoad"
+depends-top-level:
+- !private "..<"
+- !private "/"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "ChartDataEntry"
+- "ChartViewDelegate"
+- "ChartsViewController"
+- "Double"
+- !private "LineChartData"
+- !private "LineChartDataSet"
+- "LineChartView"
+- "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UIViewController"
+depends-member:
+- !private ["6Charts16AnimatorDelegateP", "animate"]
+- !private ["6Charts16AnimatorDelegateP", "data"]
+- !private ["6Charts16AnimatorDelegateP", "noDataText"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["6Charts20BarLineChartViewBaseC", "animate"]
+- !private ["6Charts20BarLineChartViewBaseC", "data"]
+- !private ["6Charts20BarLineChartViewBaseC", "noDataText"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "animate"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "data"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "noDataText"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "colors"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "mode"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "data"]
+- !private ["So15CALayerDelegateP", "noDataText"]
+- !private ["s7CVarArgP", "ChartDataEntry"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "LineChartData"]
+- !private ["s7CVarArgP", "LineChartDataSet"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addDataSet"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "chartScaled"]
+- ["s7CVarArgP", "chartTranslated"]
+- ["s7CVarArgP", "chartValueNothingSelected"]
+- ["s7CVarArgP", "chartValueSelected"]
+- !private ["s7CVarArgP", "colors"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "days"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lineChartView"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "mode"]
+- !private ["s7CVarArgP", "noDataText"]
+- !private ["s7CVarArgP", "setChart"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["6Charts16ChartBaseDataSetC", "colors"]
+- !private ["6Charts16ChartBaseDataSetC", "mode"]
+- !private ["6Charts9ChartDataC", "addDataSet"]
+- !private ["6Charts9ChartDataC", "init"]
+- !private ["6Charts14ChartDataEntryC", "init"]
+- !private ["6Charts17ChartDataProviderP", "animate"]
+- !private ["6Charts17ChartDataProviderP", "data"]
+- !private ["6Charts17ChartDataProviderP", "noDataText"]
+- !private ["6Charts12ChartDataSetC", "colors"]
+- !private ["6Charts12ChartDataSetC", "mode"]
+- !private ["6Charts13ChartViewBaseC", "animate"]
+- !private ["6Charts13ChartViewBaseC", "data"]
+- !private ["6Charts13ChartViewBaseC", "noDataText"]
+- !private ["6Charts17ChartViewDelegateP", "ChartDataEntry"]
+- !private ["6Charts17ChartViewDelegateP", "Double"]
+- !private ["6Charts17ChartViewDelegateP", "LineChartData"]
+- !private ["6Charts17ChartViewDelegateP", "LineChartDataSet"]
+- !private ["6Charts17ChartViewDelegateP", "UIColor"]
+- ["6Charts17ChartViewDelegateP", ""]
+- ["6Charts17ChartViewDelegateP", "chartScaled"]
+- ["6Charts17ChartViewDelegateP", "chartTranslated"]
+- ["6Charts17ChartViewDelegateP", "chartValueNothingSelected"]
+- ["6Charts17ChartViewDelegateP", "chartValueSelected"]
+- !private ["6Charts17ChartViewDelegateP", "days"]
+- !private ["6Charts17ChartViewDelegateP", "lineChartView"]
+- !private ["6Charts17ChartViewDelegateP", "setChart"]
+- !private ["7mealify20ChartsViewControllerC", "ChartDataEntry"]
+- ["7mealify20ChartsViewControllerC", "Double"]
+- !private ["7mealify20ChartsViewControllerC", "LineChartData"]
+- !private ["7mealify20ChartsViewControllerC", "LineChartDataSet"]
+- ["7mealify20ChartsViewControllerC", "LineChartView"]
+- ["7mealify20ChartsViewControllerC", "String"]
+- !private ["7mealify20ChartsViewControllerC", "UIColor"]
+- ["7mealify20ChartsViewControllerC", "chartScaled"]
+- ["7mealify20ChartsViewControllerC", "chartTranslated"]
+- ["7mealify20ChartsViewControllerC", "chartValueNothingSelected"]
+- ["7mealify20ChartsViewControllerC", "chartValueSelected"]
+- ["7mealify20ChartsViewControllerC", "days"]
+- ["7mealify20ChartsViewControllerC", "deinit"]
+- ["7mealify20ChartsViewControllerC", "didReceiveMemoryWarning"]
+- ["7mealify20ChartsViewControllerC", "init"]
+- ["7mealify20ChartsViewControllerC", "lineChartView"]
+- ["7mealify20ChartsViewControllerC", "setChart"]
+- ["7mealify20ChartsViewControllerC", "viewDidLoad"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartDataEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartData"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartDataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addDataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "chartScaled"]
+- ["s28CustomDebugStringConvertibleP", "chartTranslated"]
+- ["s28CustomDebugStringConvertibleP", "chartValueNothingSelected"]
+- ["s28CustomDebugStringConvertibleP", "chartValueSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "days"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lineChartView"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mode"]
+- !private ["s28CustomDebugStringConvertibleP", "noDataText"]
+- !private ["s28CustomDebugStringConvertibleP", "setChart"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "ChartDataEntry"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "LineChartData"]
+- !private ["s23CustomStringConvertibleP", "LineChartDataSet"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addDataSet"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "chartScaled"]
+- ["s23CustomStringConvertibleP", "chartTranslated"]
+- ["s23CustomStringConvertibleP", "chartValueNothingSelected"]
+- ["s23CustomStringConvertibleP", "chartValueSelected"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "days"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lineChartView"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "mode"]
+- !private ["s23CustomStringConvertibleP", "noDataText"]
+- !private ["s23CustomStringConvertibleP", "setChart"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "ChartDataEntry"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "LineChartData"]
+- !private ["s9EquatableP", "LineChartDataSet"]
+- !private ["s9EquatableP", "UIColor"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addDataSet"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "chartScaled"]
+- ["s9EquatableP", "chartTranslated"]
+- ["s9EquatableP", "chartValueNothingSelected"]
+- ["s9EquatableP", "chartValueSelected"]
+- !private ["s9EquatableP", "colors"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "cubicBezier"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "days"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lineChartView"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "mode"]
+- !private ["s9EquatableP", "noDataText"]
+- !private ["s9EquatableP", "setChart"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "ChartDataEntry"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "LineChartData"]
+- !private ["s8HashableP", "LineChartDataSet"]
+- !private ["s8HashableP", "UIColor"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addDataSet"]
+- !private ["s8HashableP", "animate"]
+- ["s8HashableP", "chartScaled"]
+- ["s8HashableP", "chartTranslated"]
+- ["s8HashableP", "chartValueNothingSelected"]
+- ["s8HashableP", "chartValueSelected"]
+- !private ["s8HashableP", "colors"]
+- !private ["s8HashableP", "cubicBezier"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "days"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lineChartView"]
+- !private ["s8HashableP", "mode"]
+- !private ["s8HashableP", "noDataText"]
+- !private ["s8HashableP", "setChart"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "colors"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "init"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "mode"]
+- !private ["6Charts13IChartDataSetP", "colors"]
+- !private ["6Charts13IChartDataSetP", "init"]
+- !private ["6Charts13IChartDataSetP", "mode"]
+- !private ["6Charts17ILineChartDataSetP", "colors"]
+- !private ["6Charts17ILineChartDataSetP", "init"]
+- !private ["6Charts17ILineChartDataSetP", "mode"]
+- !private ["6Charts22ILineRadarChartDataSetP", "colors"]
+- !private ["6Charts22ILineRadarChartDataSetP", "init"]
+- !private ["6Charts22ILineRadarChartDataSetP", "mode"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "colors"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "init"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "mode"]
+- !private ["6Charts13LineChartDataC", "addDataSet"]
+- !private ["6Charts13LineChartDataC", "init"]
+- !private ["6Charts21LineChartDataProviderP", "animate"]
+- !private ["6Charts21LineChartDataProviderP", "data"]
+- !private ["6Charts21LineChartDataProviderP", "noDataText"]
+- !private ["6Charts16LineChartDataSetC", "colors"]
+- !private ["6Charts16LineChartDataSetC", "init"]
+- !private ["6Charts16LineChartDataSetC", "mode"]
+- !private ["6Charts13LineChartViewC", "animate"]
+- !private ["6Charts13LineChartViewC", "data"]
+- !private ["6Charts13LineChartViewC", "noDataText"]
+- !private ["6Charts21LineRadarChartDataSetC", "colors"]
+- !private ["6Charts21LineRadarChartDataSetC", "mode"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "colors"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "mode"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["6Charts16LineChartDataSetC4ModeO", "cubicBezier"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "ChartDataEntry"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "LineChartData"]
+- !private ["So8NSCodingP", "LineChartDataSet"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "animate"]
+- ["So8NSCodingP", "chartScaled"]
+- ["So8NSCodingP", "chartTranslated"]
+- ["So8NSCodingP", "chartValueNothingSelected"]
+- ["So8NSCodingP", "chartValueSelected"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "days"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lineChartView"]
+- !private ["So8NSCodingP", "noDataText"]
+- !private ["So8NSCodingP", "setChart"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "ChartDataEntry"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- !private ["So26NSExtensionRequestHandlingP", "LineChartData"]
+- !private ["So26NSExtensionRequestHandlingP", "LineChartDataSet"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "chartScaled"]
+- ["So26NSExtensionRequestHandlingP", "chartTranslated"]
+- ["So26NSExtensionRequestHandlingP", "chartValueNothingSelected"]
+- ["So26NSExtensionRequestHandlingP", "chartValueSelected"]
+- !private ["So26NSExtensionRequestHandlingP", "days"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "lineChartView"]
+- !private ["So26NSExtensionRequestHandlingP", "setChart"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "ChartDataEntry"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "LineChartData"]
+- !private ["So8NSObjectC", "LineChartDataSet"]
+- ["So8NSObjectC", "LineChartView"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "addDataSet"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "chartScaled"]
+- ["So8NSObjectC", "chartTranslated"]
+- ["So8NSObjectC", "chartValueNothingSelected"]
+- ["So8NSObjectC", "chartValueSelected"]
+- !private ["So8NSObjectC", "colors"]
+- !private ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "days"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lineChartView"]
+- !private ["So8NSObjectC", "mode"]
+- !private ["So8NSObjectC", "noDataText"]
+- ["So8NSObjectC", "setChart"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "ChartDataEntry"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "LineChartData"]
+- !private ["So16NSObjectProtocolP", "LineChartDataSet"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addDataSet"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- ["So16NSObjectProtocolP", "chartScaled"]
+- ["So16NSObjectProtocolP", "chartTranslated"]
+- ["So16NSObjectProtocolP", "chartValueNothingSelected"]
+- ["So16NSObjectProtocolP", "chartValueSelected"]
+- !private ["So16NSObjectProtocolP", "colors"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "days"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lineChartView"]
+- !private ["So16NSObjectProtocolP", "mode"]
+- !private ["So16NSObjectProtocolP", "noDataText"]
+- !private ["So16NSObjectProtocolP", "setChart"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["6Charts8NSUIViewC", "animate"]
+- !private ["6Charts8NSUIViewC", "data"]
+- !private ["6Charts8NSUIViewC", "noDataText"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "cubicBezier"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "data"]
+- !private ["So29UIAccessibilityIdentificationP", "noDataText"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "data"]
+- !private ["So12UIAppearanceP", "noDataText"]
+- !private ["So21UIAppearanceContainerP", "ChartDataEntry"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- !private ["So21UIAppearanceContainerP", "LineChartData"]
+- !private ["So21UIAppearanceContainerP", "LineChartDataSet"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- ["So21UIAppearanceContainerP", "chartScaled"]
+- ["So21UIAppearanceContainerP", "chartTranslated"]
+- ["So21UIAppearanceContainerP", "chartValueNothingSelected"]
+- ["So21UIAppearanceContainerP", "chartValueSelected"]
+- !private ["So21UIAppearanceContainerP", "data"]
+- !private ["So21UIAppearanceContainerP", "days"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lineChartView"]
+- !private ["So21UIAppearanceContainerP", "noDataText"]
+- !private ["So21UIAppearanceContainerP", "setChart"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", "ChartDataEntry"]
+- !private ["So18UIContentContainerP", "Double"]
+- !private ["So18UIContentContainerP", "LineChartData"]
+- !private ["So18UIContentContainerP", "LineChartDataSet"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "chartScaled"]
+- ["So18UIContentContainerP", "chartTranslated"]
+- ["So18UIContentContainerP", "chartValueNothingSelected"]
+- ["So18UIContentContainerP", "chartValueSelected"]
+- !private ["So18UIContentContainerP", "days"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "lineChartView"]
+- !private ["So18UIContentContainerP", "setChart"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "data"]
+- !private ["So17UICoordinateSpaceP", "noDataText"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "data"]
+- !private ["So13UIDynamicItemP", "noDataText"]
+- !private ["So18UIFocusEnvironmentP", "ChartDataEntry"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- !private ["So18UIFocusEnvironmentP", "LineChartData"]
+- !private ["So18UIFocusEnvironmentP", "LineChartDataSet"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- ["So18UIFocusEnvironmentP", "chartScaled"]
+- ["So18UIFocusEnvironmentP", "chartTranslated"]
+- ["So18UIFocusEnvironmentP", "chartValueNothingSelected"]
+- ["So18UIFocusEnvironmentP", "chartValueSelected"]
+- !private ["So18UIFocusEnvironmentP", "data"]
+- !private ["So18UIFocusEnvironmentP", "days"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lineChartView"]
+- !private ["So18UIFocusEnvironmentP", "noDataText"]
+- !private ["So18UIFocusEnvironmentP", "setChart"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "data"]
+- !private ["So11UIFocusItemP", "noDataText"]
+- !private ["So27UIGestureRecognizerDelegateP", "animate"]
+- !private ["So27UIGestureRecognizerDelegateP", "data"]
+- !private ["So27UIGestureRecognizerDelegateP", "noDataText"]
+- !private ["So30UIPasteConfigurationSupportingP", "ChartDataEntry"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- !private ["So30UIPasteConfigurationSupportingP", "LineChartData"]
+- !private ["So30UIPasteConfigurationSupportingP", "LineChartDataSet"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- ["So30UIPasteConfigurationSupportingP", "chartScaled"]
+- ["So30UIPasteConfigurationSupportingP", "chartTranslated"]
+- ["So30UIPasteConfigurationSupportingP", "chartValueNothingSelected"]
+- ["So30UIPasteConfigurationSupportingP", "chartValueSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "data"]
+- !private ["So30UIPasteConfigurationSupportingP", "days"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lineChartView"]
+- !private ["So30UIPasteConfigurationSupportingP", "noDataText"]
+- !private ["So30UIPasteConfigurationSupportingP", "setChart"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "ChartDataEntry"]
+- ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "LineChartData"]
+- !private ["So11UIResponderC", "LineChartDataSet"]
+- ["So11UIResponderC", "LineChartView"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "chartScaled"]
+- ["So11UIResponderC", "chartTranslated"]
+- ["So11UIResponderC", "chartValueNothingSelected"]
+- ["So11UIResponderC", "chartValueSelected"]
+- !private ["So11UIResponderC", "data"]
+- ["So11UIResponderC", "days"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lineChartView"]
+- !private ["So11UIResponderC", "noDataText"]
+- ["So11UIResponderC", "setChart"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ChartDataEntry"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- !private ["So30UIResponderStandardEditActionsP", "LineChartData"]
+- !private ["So30UIResponderStandardEditActionsP", "LineChartDataSet"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- ["So30UIResponderStandardEditActionsP", "chartScaled"]
+- ["So30UIResponderStandardEditActionsP", "chartTranslated"]
+- ["So30UIResponderStandardEditActionsP", "chartValueNothingSelected"]
+- ["So30UIResponderStandardEditActionsP", "chartValueSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "data"]
+- !private ["So30UIResponderStandardEditActionsP", "days"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lineChartView"]
+- !private ["So30UIResponderStandardEditActionsP", "noDataText"]
+- !private ["So30UIResponderStandardEditActionsP", "setChart"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "ChartDataEntry"]
+- !private ["So16UIStateRestoringP", "Double"]
+- !private ["So16UIStateRestoringP", "LineChartData"]
+- !private ["So16UIStateRestoringP", "LineChartDataSet"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "chartScaled"]
+- ["So16UIStateRestoringP", "chartTranslated"]
+- ["So16UIStateRestoringP", "chartValueNothingSelected"]
+- ["So16UIStateRestoringP", "chartValueSelected"]
+- !private ["So16UIStateRestoringP", "days"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "lineChartView"]
+- !private ["So16UIStateRestoringP", "setChart"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "ChartDataEntry"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- !private ["So18UITraitEnvironmentP", "LineChartData"]
+- !private ["So18UITraitEnvironmentP", "LineChartDataSet"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- ["So18UITraitEnvironmentP", "chartScaled"]
+- ["So18UITraitEnvironmentP", "chartTranslated"]
+- ["So18UITraitEnvironmentP", "chartValueNothingSelected"]
+- ["So18UITraitEnvironmentP", "chartValueSelected"]
+- !private ["So18UITraitEnvironmentP", "data"]
+- !private ["So18UITraitEnvironmentP", "days"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lineChartView"]
+- !private ["So18UITraitEnvironmentP", "noDataText"]
+- !private ["So18UITraitEnvironmentP", "setChart"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "data"]
+- !private ["So6UIViewC", "noDataText"]
+- !private ["So16UIViewControllerC", "ChartDataEntry"]
+- ["So16UIViewControllerC", "Double"]
+- !private ["So16UIViewControllerC", "LineChartData"]
+- !private ["So16UIViewControllerC", "LineChartDataSet"]
+- ["So16UIViewControllerC", "LineChartView"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "chartScaled"]
+- ["So16UIViewControllerC", "chartTranslated"]
+- ["So16UIViewControllerC", "chartValueNothingSelected"]
+- ["So16UIViewControllerC", "chartValueSelected"]
+- ["So16UIViewControllerC", "days"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "lineChartView"]
+- ["So16UIViewControllerC", "setChart"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "data"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "noDataText"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartDataEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartDataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addDataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "chartScaled"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "chartTranslated"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "chartValueNothingSelected"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "chartValueSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "days"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineChartView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noDataText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setChart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "6Charts16AnimatorDelegateP"
+- !private "Sa"
+- !private "6Charts20BarLineChartViewBaseC"
+- !private "6Charts43BarLineScatterCandleBubbleChartDataProviderP"
+- !private "6Charts38BarLineScatterCandleBubbleChartDataSetC"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "6Charts16ChartBaseDataSetC"
+- !private "6Charts9ChartDataC"
+- !private "6Charts14ChartDataEntryC"
+- !private "6Charts17ChartDataProviderP"
+- !private "6Charts12ChartDataSetC"
+- !private "6Charts13ChartViewBaseC"
+- "6Charts17ChartViewDelegateP"
+- "7mealify20ChartsViewControllerC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
+- !private "6Charts13IChartDataSetP"
+- !private "6Charts17ILineChartDataSetP"
+- !private "6Charts22ILineRadarChartDataSetP"
+- !private "6Charts35ILineScatterCandleRadarChartDataSetP"
+- !private "6Charts13LineChartDataC"
+- !private "6Charts21LineChartDataProviderP"
+- !private "6Charts16LineChartDataSetC"
+- !private "6Charts13LineChartViewC"
+- !private "6Charts21LineRadarChartDataSetC"
+- !private "6Charts34LineScatterCandleRadarChartDataSetC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "6Charts16LineChartDataSetC4ModeO"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "6Charts8NSUIViewC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f0995d7cf0c9a2007059a0249b980bbd"

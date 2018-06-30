@@ -1,0 +1,351 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Charts-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Charts-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/Charts/Charts-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRAnalyticsConfiguration.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRApp.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRConfiguration.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRLoggerLevel.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIROptions.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseCore-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseCore-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseCore.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRAnalyticsConfiguration+Internal.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAppAssociationRegistration.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAppEnvironmentUtil.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/third_party/FIRAppEnvironmentUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAppInternal.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRBundleUtil.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRErrorCode.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRErrors.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRLogger.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRMutableDictionary.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRMutableDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetwork.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRNetwork.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkConstants.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkLoggerProtocol.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkLoggerProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkMessageCode.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkMessageCode.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkURLSession.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkURLSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIROptionsInternal.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRReachabilityChecker+Internal.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRReachabilityChecker.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRVersion.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMDefines.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/GoogleToolboxForMac/GTMDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSData+zlib.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GoogleToolboxForMac.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Pods_mealify.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-mealify-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/Pods-mealify/Pods-mealify-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_mealify-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Pods_mealify.framework/Headers/Pods_mealify-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Pods_mealify.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-mealify.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "nanopb-Swift.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Headers/nanopb-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "nanopb-umbrella.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Target Support Files/nanopb/nanopb-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/nanopb/pb.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb_common.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/nanopb/pb_common.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb_decode.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/nanopb/pb_decode.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb_encode.h",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/nanopb/pb_encode.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/nanopb.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

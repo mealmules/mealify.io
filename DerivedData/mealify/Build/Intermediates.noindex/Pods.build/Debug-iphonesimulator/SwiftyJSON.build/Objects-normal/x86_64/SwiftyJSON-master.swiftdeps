@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "a23bbddb1251a9782ff902301de44bc8"
+build_time: [1530330321, 134978000]
+inputs:
+  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1530330315, 0]

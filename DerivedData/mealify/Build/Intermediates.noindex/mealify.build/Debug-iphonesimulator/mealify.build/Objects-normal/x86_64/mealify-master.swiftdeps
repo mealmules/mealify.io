@@ -1,6 +1,7 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "01dc125e92b5d654f3b36e9cb9d7dfe3"
-build_time: [1527360875, 861791000]
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "3c04fd457209f029f0aa44a7600653ef"
+build_time: [1530331539, 745917000]
 inputs:
-  "/Users/justinlew/Documents/SFU/CMPT276/mealify/mealify/ViewController.swift": [1527360863, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/mealify/mealify/AppDelegate.swift": [1527360863, 0]
+  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/mealify/New Group/ChartsViewController.swift": [1530331539, 0]
+  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/mealify/New Group/ViewController.swift": [1530330623, 0]
+  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/mealify/Other Files/AppDelegate.swift": [1530154151, 0]

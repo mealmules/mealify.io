@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241016A220E4820C00E2E215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241016A120E4820B00E2E215 /* GoogleService-Info.plist */; };
+		24DE748420E7352300125859 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE748320E7352300125859 /* ChartsViewController.swift */; };
 		24DECF3720B9E4DF007F678D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DECF3620B9E4DF007F678D /* AppDelegate.swift */; };
 		24DECF3920B9E4DF007F678D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DECF3820B9E4DF007F678D /* ViewController.swift */; };
 		24DECF3C20B9E4E0007F678D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DECF3A20B9E4E0007F678D /* Main.storyboard */; };
 		24DECF3E20B9E4E1007F678D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DECF3D20B9E4E1007F678D /* Assets.xcassets */; };
 		24DECF4120B9E4E1007F678D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DECF3F20B9E4E1007F678D /* LaunchScreen.storyboard */; };
+		A8DBA99C84080F71630088AC /* Pods_mealify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241016A120E4820B00E2E215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24DE748320E7352300125859 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		24DECF3320B9E4DF007F678D /* mealify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DECF3620B9E4DF007F678D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DECF3820B9E4DF007F678D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		24DECF3D20B9E4E1007F678D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24DECF4020B9E4E1007F678D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DECF4220B9E4E1007F678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE9546A620DA04D344087C0 /* Pods-mealify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealify/Pods-mealify.debug.xcconfig"; sourceTree = "<group>"; };
+		A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC754CCEB0777F0F89C9D0F8 /* Pods-mealify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealify.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealify/Pods-mealify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DBA99C84080F71630088AC /* Pods_mealify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24DE747F20E7346D00125859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24DECF3A20B9E4E0007F678D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24DE748020E7347400125859 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24DECF3820B9E4DF007F678D /* ViewController.swift */,
+				24DE748320E7352300125859 /* ChartsViewController.swift */,
+			);
+			name = Controller;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		24DE748120E7347B00125859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24DE748220E7348200125859 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				24DECF3620B9E4DF007F678D /* AppDelegate.swift */,
+			);
+			path = "Other Files";
+			sourceTree = "<group>";
+		};
 		24DECF2A20B9E4DF007F678D = {
 			isa = PBXGroup;
 			children = (
 				24DECF3520B9E4DF007F678D /* mealify */,
 				24DECF3420B9E4DF007F678D /* Products */,
+				E76E5383EA5A163AC83ED616 /* Pods */,
+				F6F5106A1E803866C082A655 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,33 @@
 		24DECF3520B9E4DF007F678D /* mealify */ = {
 			isa = PBXGroup;
 			children = (
-				24DECF3620B9E4DF007F678D /* AppDelegate.swift */,
-				24DECF3820B9E4DF007F678D /* ViewController.swift */,
-				24DECF3A20B9E4E0007F678D /* Main.storyboard */,
+				24DE748220E7348200125859 /* Other Files */,
+				24DE748120E7347B00125859 /* Model */,
+				24DE748020E7347400125859 /* Controller */,
+				24DE747F20E7346D00125859 /* View */,
 				24DECF3D20B9E4E1007F678D /* Assets.xcassets */,
 				24DECF3F20B9E4E1007F678D /* LaunchScreen.storyboard */,
+				241016A120E4820B00E2E215 /* GoogleService-Info.plist */,
 				24DECF4220B9E4E1007F678D /* Info.plist */,
 			);
 			path = mealify;
+			sourceTree = "<group>";
+		};
+		E76E5383EA5A163AC83ED616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AE9546A620DA04D344087C0 /* Pods-mealify.debug.xcconfig */,
+				CC754CCEB0777F0F89C9D0F8 /* Pods-mealify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6F5106A1E803866C082A655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DECF4520B9E4E1007F678D /* Build configuration list for PBXNativeTarget "mealify" */;
 			buildPhases = (
+				4CFD7E0995378BE84C65F388 /* [CP] Check Pods Manifest.lock */,
 				24DECF2F20B9E4DF007F678D /* Sources */,
 				24DECF3020B9E4DF007F678D /* Frameworks */,
 				24DECF3120B9E4DF007F678D /* Resources */,
+				7DACCB4877A8D73D78D95139 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DECF4120B9E4E1007F678D /* LaunchScreen.storyboard in Resources */,
+				241016A220E4820C00E2E215 /* GoogleService-Info.plist in Resources */,
 				24DECF3E20B9E4E1007F678D /* Assets.xcassets in Resources */,
 				24DECF3C20B9E4E0007F678D /* Main.storyboard in Resources */,
 			);
@@ -130,11 +196,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CFD7E0995378BE84C65F388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mealify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DACCB4877A8D73D78D95139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mealify/Pods-mealify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealify/Pods-mealify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24DECF2F20B9E4DF007F678D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DE748420E7352300125859 /* ChartsViewController.swift in Sources */,
 				24DECF3920B9E4DF007F678D /* ViewController.swift in Sources */,
 				24DECF3720B9E4DF007F678D /* AppDelegate.swift in Sources */,
 			);
@@ -278,9 +392,11 @@
 		};
 		24DECF4620B9E4E1007F678D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE9546A620DA04D344087C0 /* Pods-mealify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23782HUD3Y;
 				INFOPLIST_FILE = mealify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,15 +405,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mealmules.mealify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		24DECF4720B9E4E1007F678D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC754CCEB0777F0F89C9D0F8 /* Pods-mealify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23782HUD3Y;
 				INFOPLIST_FILE = mealify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mealmules.mealify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
