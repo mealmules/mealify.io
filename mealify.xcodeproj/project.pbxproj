@@ -14,6 +14,12 @@
 		24DECF3C20B9E4E0007F678D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DECF3A20B9E4E0007F678D /* Main.storyboard */; };
 		24DECF3E20B9E4E1007F678D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DECF3D20B9E4E1007F678D /* Assets.xcassets */; };
 		24DECF4120B9E4E1007F678D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DECF3F20B9E4E1007F678D /* LaunchScreen.storyboard */; };
+		7D0991A020EAD7F700C3EE56 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09919420EAD79400C3EE56 /* ViewController4.swift */; };
+		7D0991A220EAD7F700C3EE56 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09919620EAD7A700C3EE56 /* ViewController1.swift */; };
+		7D0991A320EAD7F700C3EE56 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09919720EAD7B000C3EE56 /* ViewController5.swift */; };
+		7D0991A420EAD7F700C3EE56 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09919820EAD7BA00C3EE56 /* ViewController2.swift */; };
+		7D0991A520EAD7F700C3EE56 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09919920EAD7C400C3EE56 /* ViewController3.swift */; };
+		7D0991A620EAD7F700C3EE56 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09919A20EAD7D400C3EE56 /* ViewController6.swift */; };
 		A8DBA99C84080F71630088AC /* Pods_mealify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,12 @@
 		24DECF4020B9E4E1007F678D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DECF4220B9E4E1007F678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE9546A620DA04D344087C0 /* Pods-mealify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealify/Pods-mealify.debug.xcconfig"; sourceTree = "<group>"; };
+		7D09919420EAD79400C3EE56 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		7D09919620EAD7A700C3EE56 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		7D09919720EAD7B000C3EE56 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		7D09919820EAD7BA00C3EE56 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7D09919920EAD7C400C3EE56 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		7D09919A20EAD7D400C3EE56 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC754CCEB0777F0F89C9D0F8 /* Pods-mealify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealify.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealify/Pods-mealify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +92,12 @@
 		24DECF2A20B9E4DF007F678D = {
 			isa = PBXGroup;
 			children = (
+				7D09919620EAD7A700C3EE56 /* ViewController1.swift */,
+				7D09919820EAD7BA00C3EE56 /* ViewController2.swift */,
+				7D09919920EAD7C400C3EE56 /* ViewController3.swift */,
+				7D09919420EAD79400C3EE56 /* ViewController4.swift */,
+				7D09919720EAD7B000C3EE56 /* ViewController5.swift */,
+				7D09919A20EAD7D400C3EE56 /* ViewController6.swift */,
 				24DECF3520B9E4DF007F678D /* mealify */,
 				24DECF3420B9E4DF007F678D /* Products */,
 				E76E5383EA5A163AC83ED616 /* Pods */,
@@ -252,9 +270,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0991A620EAD7F700C3EE56 /* ViewController6.swift in Sources */,
+				7D0991A520EAD7F700C3EE56 /* ViewController3.swift in Sources */,
 				24DE748420E7352300125859 /* ChartsViewController.swift in Sources */,
+				7D0991A420EAD7F700C3EE56 /* ViewController2.swift in Sources */,
 				24DECF3920B9E4DF007F678D /* ViewController.swift in Sources */,
 				24DECF3720B9E4DF007F678D /* AppDelegate.swift in Sources */,
+				7D0991A320EAD7F700C3EE56 /* ViewController5.swift in Sources */,
+				7D0991A220EAD7F700C3EE56 /* ViewController1.swift in Sources */,
+				7D0991A020EAD7F700C3EE56 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 23782HUD3Y;
+				DEVELOPMENT_TEAM = CX9P6A84SZ;
 				INFOPLIST_FILE = mealify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 23782HUD3Y;
+				DEVELOPMENT_TEAM = CX9P6A84SZ;
 				INFOPLIST_FILE = mealify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
