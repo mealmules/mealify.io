@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSn-0b-pgN">
-                                <rect key="frame" x="161" y="299" width="59" height="44"/>
+                                <rect key="frame" x="157" y="321" width="59" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pork"/>
                                 <connections>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZN-ey-DaS">
-                                <rect key="frame" x="158" y="404" width="67" height="38"/>
+                                <rect key="frame" x="157" y="449" width="67" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Chicken"/>
                                 <connections>
@@ -39,26 +39,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgY-Nm-zlZ">
-                                <rect key="frame" x="161" y="351" width="60" height="45"/>
+                                <rect key="frame" x="157" y="380" width="60" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Beef"/>
                                 <connections>
                                     <action selector="BeefButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFk-X7-KU8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjq-pY-AbI">
-                                <rect key="frame" x="59" y="602" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjq-pY-AbI">
+                                <rect key="frame" x="38" y="606" width="55" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back" image="button_back (1)"/>
                                 <connections>
                                     <action selector="Back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fc-dM-LJ2"/>
                                     <segue destination="5Cb-BG-E17" kind="show" id="acI-PC-l7z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzA-tL-IEu">
-                                <rect key="frame" x="170" y="602" width="35" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzA-tL-IEu">
+                                <rect key="frame" x="142" y="593" width="108" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&gt;"/>
+                                <state key="normal" title="&gt;" image="button_next (1)"/>
                                 <connections>
                                     <segue destination="e4b-UE-0EG" kind="show" id="MGf-ik-r7Y"/>
                                 </connections>
@@ -71,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jug-NB-lkC">
-                                <rect key="frame" x="166" y="250" width="48" height="41"/>
+                                <rect key="frame" x="163" y="259" width="48" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fish"/>
                                 <connections>
@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-AR-PbJ">
-                                <rect key="frame" x="159" y="450" width="64" height="50"/>
+                                <rect key="frame" x="158" y="512" width="64" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="no meat"/>
                                 <connections>
@@ -122,18 +122,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ty0-Io-1Fh">
-                                <rect key="frame" x="56" y="601" width="34" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPh-yX-26D">
+                                <rect key="frame" x="136" y="599" width="112" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="x3h-6y-SPB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPh-yX-26D">
-                                <rect key="frame" x="172" y="604" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&gt;"/>
+                                <state key="normal" title="&gt;" image="button_next (1)"/>
                                 <connections>
                                     <segue destination="A93-ke-npn" kind="show" id="bSN-SK-eCT"/>
                                 </connections>
@@ -161,6 +153,14 @@
                                     <action selector="yes:" destination="e4b-UE-0EG" eventType="touchUpInside" id="N6g-fj-dvf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ty0-Io-1Fh">
+                                <rect key="frame" x="35" y="606" width="55" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back" image="button_back (1)"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="x3h-6y-SPB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nur-70-EXP"/>
@@ -186,16 +186,8 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nL3-nl-ec7">
-                                <rect key="frame" x="102" y="382" width="172" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Peas, corn, or lima beans"/>
-                                <connections>
-                                    <action selector="peas:" destination="A93-ke-npn" eventType="touchUpInside" id="qPZ-Mb-JVs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47r-IL-BAp">
-                                <rect key="frame" x="167" y="336" width="41" height="30"/>
+                                <rect key="frame" x="167" y="358" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bread"/>
                                 <connections>
@@ -217,28 +209,36 @@
                                     <action selector="rice:" destination="A93-ke-npn" eventType="touchUpInside" id="A6u-gP-cKP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEL-RT-FdF">
-                                <rect key="frame" x="34" y="605" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEL-RT-FdF">
+                                <rect key="frame" x="35" y="606" width="55" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back" image="button_back (1)"/>
                                 <connections>
                                     <segue destination="e4b-UE-0EG" kind="show" id="pZ2-56-Dau"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAU-KN-f53">
-                                <rect key="frame" x="172" y="605" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAU-KN-f53">
+                                <rect key="frame" x="140" y="595" width="98" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&gt;"/>
+                                <state key="normal" title="&gt;" image="button_next (1)"/>
                                 <connections>
                                     <segue destination="coL-je-TmF" kind="show" id="shd-VS-ChS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2S-FO-XZJ">
-                                <rect key="frame" x="157" y="433" width="61" height="30"/>
+                                <rect key="frame" x="157" y="500" width="61" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Potatoes"/>
                                 <connections>
                                     <action selector="potatoes:" destination="A93-ke-npn" eventType="touchUpInside" id="qdz-wj-QId"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nL3-nl-ec7">
+                                <rect key="frame" x="101" y="428" width="172" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Peas, corn, or lima beans"/>
+                                <connections>
+                                    <action selector="peas:" destination="A93-ke-npn" eventType="touchUpInside" id="qPZ-Mb-JVs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -254,24 +254,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xbj-Kb-Qx0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2065" y="886"/>
+            <point key="canvasLocation" x="2064.8000000000002" y="884.70764617691157"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller3-->
         <scene sceneID="TL1-dk-DIw">
             <objects>
-                <viewController id="3rA-4N-gKX" customClass="ViewController" customModule="userEatingHabits" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3rA-4N-gKX" customClass="ViewController3" customModule="userEatingHabits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y0F-mf-Qmv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKM-Wg-HEd">
-                                <rect key="frame" x="163" y="305" width="49" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <segue destination="5Cb-BG-E17" kind="show" id="Qyi-OO-W2n"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mealify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBs-TE-40L">
                                 <rect key="frame" x="104" y="85" width="168" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -280,14 +272,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M4k-te-iWJ">
-                                <rect key="frame" x="139" y="197" width="97" height="30"/>
+                                <rect key="frame" x="139" y="197" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E4d-z5-kIz">
-                                <rect key="frame" x="139" y="245" width="97" height="30"/>
+                                <rect key="frame" x="139" y="245" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -307,6 +299,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKM-Wg-HEd">
+                                <rect key="frame" x="139" y="313" width="97" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login" image="button_login (1)"/>
+                                <connections>
+                                    <segue destination="5Cb-BG-E17" kind="show" id="Qyi-OO-W2n"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4rI-pp-E7g"/>
@@ -328,15 +328,6 @@
                                 <rect key="frame" x="1" y="20" width="374" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSU-If-ur6">
-                                <rect key="frame" x="157" y="617" width="57" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&gt;"/>
-                                <connections>
-                                    <action selector="nextButton:" destination="5Cb-BG-E17" eventType="touchUpInside" id="16F-BL-rMw"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="GmL-6b-TBB"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rft-qQ-Qhi">
                                 <rect key="frame" x="94" y="179" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -401,6 +392,15 @@
                                 <rect key="frame" x="150" y="265" width="77" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSU-If-ur6">
+                                <rect key="frame" x="137" y="600" width="102" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&gt;" image="button_next (1)"/>
+                                <connections>
+                                    <action selector="nextButton:" destination="5Cb-BG-E17" eventType="touchUpInside" id="16F-BL-rMw"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="GmL-6b-TBB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0Ck-YN-tPV"/>
@@ -447,18 +447,13 @@
                                     <action selector="noo:" destination="coL-je-TmF" eventType="touchUpInside" id="s3S-6A-yrn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeA-6w-euR">
-                                <rect key="frame" x="59" y="602" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeA-6w-euR">
+                                <rect key="frame" x="35" y="606" width="55" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back" image="button_back (1)"/>
                                 <connections>
                                     <segue destination="A93-ke-npn" kind="show" id="byx-Vp-F21"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSF-6Y-OSx">
-                                <rect key="frame" x="170" y="602" width="35" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&gt;"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you planning to lose weight?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69R-9p-DW4">
                                 <rect key="frame" x="21" y="203" width="338" height="21"/>
@@ -474,6 +469,11 @@
                                 <connections>
                                     <action selector="yes:" destination="coL-je-TmF" eventType="touchUpInside" id="73Q-Oc-D4B"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSF-6Y-OSx">
+                                <rect key="frame" x="138" y="593" width="105" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&gt;" image="button_next (1)"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -495,9 +495,12 @@
         <image name="Asset 2@300x" width="867" height="2000"/>
         <image name="Copy of 2_habit test" width="373" height="790"/>
         <image name="Copy of 3_about me" width="374" height="833"/>
+        <image name="button_back (1)" width="92" height="40"/>
+        <image name="button_login (1)" width="96" height="40"/>
+        <image name="button_next (1)" width="91" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="acI-PC-l7z"/>
+        <segue reference="Qyi-OO-W2n"/>
         <segue reference="byx-Vp-F21"/>
         <segue reference="pZ2-56-Dau"/>
         <segue reference="x3h-6y-SPB"/>
