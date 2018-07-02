@@ -1,27 +1,21 @@
 //
 //  AppDelegate.swift
-//  mealify
+//  Home
 //
-//  Created by Justin Lew on 2018-05-26.
+//  Created by vdy on 2018-06-29.
 //  Copyright © 2018 Meal Mules. All rights reserved.
 //
 
 import UIKit
-import Firebase
 
 @UIApplicationMain
-class AppDelegate2: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
-        
-        let myDatabase = Database.database().reference()
-        myDatabase.setValue("we got data bro!")
-        
         return true
     }
 

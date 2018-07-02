@@ -1,9 +1,0 @@
-version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "664080f83db7a1f48d312e787a673baa"
-build_time: [1530246244, 633688000]
-inputs:
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/userEatingHabits/userEatingHabits/ViewController.swift": [1530244945, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/userEatingHabits/userEatingHabits/ViewController2.swift": [1530244945, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/userEatingHabits/userEatingHabits/ViewController3.swift": [1530153011, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/userEatingHabits/userEatingHabits/AppDelegate.swift": [1530146507, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/userEatingHabits/userEatingHabits/ViewController4.swift": [9223372036, 854775807]
