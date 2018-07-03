@@ -165,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import UIKit;
 @import Charts;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -185,8 +186,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class UIWindow;
 @class UIApplication;
 
-SWIFT_CLASS("_TtC7mealify11AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+SWIFT_CLASS("_TtC7mealify12AppDelegate2")
+@interface AppDelegate2 : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
@@ -210,9 +211,190 @@ SWIFT_CLASS("_TtC7mealify20ChartsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+
+SWIFT_CLASS("_TtC7mealify17MealTableViewCell")
+@interface MealTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodName;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIBarButtonItem;
+@class UITableView;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC7mealify23MealTableViewController")
+@interface MealTableViewController : UITableViewController
+- (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchController;
+
+@interface MealTableViewController (SWIFT_EXTENSION(mealify)) <UISearchResultsUpdating>
+- (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify18MealViewController")
+@interface MealViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodName;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UIButton;
+@class UIImageView;
+@class UISlider;
+
+SWIFT_CLASS("_TtC7mealify20SecondViewController")
+@interface SecondViewController : UIViewController
+- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified oldness;
+- (IBAction)userOldness:(UITextField * _Nonnull)sender;
+- (IBAction)older:(UIButton * _Nonnull)sender;
+- (IBAction)younger:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified nextButton;
+- (IBAction)nextButton:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified female;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified girlImage;
+- (IBAction)girl:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified male;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified boyImage;
+- (IBAction)boy:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified userWeight;
+- (IBAction)weightSlider:(UISlider * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified userHeight;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified userHeightCM;
+- (IBAction)heightSlider:(UISlider * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC7mealify14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified kcalsLeft;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified breakfastRecommend;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lunchRecommend;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dinnerRecommend;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified todayButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified tomorrowButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified yesterdayButton;
+- (IBAction)dayNow:(id _Nonnull)sender;
+- (IBAction)dayBefore:(id _Nonnull)sender;
+- (IBAction)dayAfter:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify15ViewController2")
+@interface ViewController2 : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified fish;
+- (IBAction)FishButton:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified pork;
+- (IBAction)PorkButton:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified beef;
+- (IBAction)BeefButton:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified chicken;
+- (IBAction)ChickenButton:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified noMeat;
+- (IBAction)noMeatButton:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
+- (IBAction)Back:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify15ViewController3")
+@interface ViewController3 : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailtext;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordtext;
+- (IBAction)loginbutton:(UIButton * _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify15ViewController4")
+@interface ViewController4 : UIViewController
+- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified ye;
+- (IBAction)yes:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified nah;
+- (IBAction)no:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify15ViewController5")
+@interface ViewController5 : UIViewController
+- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified ricee;
+- (IBAction)rice:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified breadd;
+- (IBAction)bread:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified peass;
+- (IBAction)peas:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified potatoess;
+- (IBAction)potatoes:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify15ViewController6")
+@interface ViewController6 : UIViewController
+- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified ye;
+- (IBAction)yes:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified nah;
+- (IBAction)no:(UIButton * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified nay;
+- (IBAction)noo:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify15ViewControllerJ")
+@interface ViewControllerJ : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7mealify22ViewControllerRegister")
+@interface ViewControllerRegister : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailtext;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordtext;
+- (IBAction)registerbutton:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

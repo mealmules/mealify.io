@@ -1,7 +1,21 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "3c04fd457209f029f0aa44a7600653ef"
-build_time: [1530331046, 776238000]
+options: "7f7f6a0a3ba93771952e8ca9d730b571"
+build_time: [1530604541, 787720000]
 inputs:
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/mealify/New Group/ChartsViewController.swift": !dirty [1530331044, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/mealify/New Group/ViewController.swift": [1530330623, 0]
-  "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/mealify/Other Files/AppDelegate.swift": [1530154151, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController6.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController3.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewControllerRegister.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/Numbers.swift": [1530603672, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/mealify/New Group/ChartsViewController.swift": !dirty [1530604083, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController2.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/Meal.swift": [1530603672, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/MealTableViewController.swift": [1530603672, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/mealify/New Group/ViewControllerJ.swift": [1530603674, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/mealify/Other Files/AppDelegate.swift": [1530603674, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController5.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/Day.swift": [1530603664, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/MealViewController.swift": [1530603672, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/MealTableViewCell.swift": [1530603672, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController1.swift": [1530603673, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController4.swift": [1530603673, 0]

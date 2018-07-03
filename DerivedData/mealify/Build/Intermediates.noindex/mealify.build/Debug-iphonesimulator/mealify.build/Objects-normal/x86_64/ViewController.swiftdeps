@@ -1,120 +1,853 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "today"
+- "yesterday"
+- "tomorrow"
 - "ViewController"
 provides-nominal:
 - "7mealify14ViewControllerC"
 provides-member:
 - ["7mealify14ViewControllerC", ""]
 provides-dynamic-lookup:
+- "breakfastRecommend"
+- "dayAfter"
+- "dayBefore"
+- "dayNow"
 - "didReceiveMemoryWarning"
+- "dinnerRecommend"
+- "kcalsLeft"
+- "lunchRecommend"
+- "prepare"
+- "todayButton"
+- "tomorrowButton"
 - "viewDidLoad"
+- "yesterdayButton"
 depends-top-level:
+- !private "+"
+- !private "=="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Int"
+- "Meal"
+- !private "MealTableViewController"
+- "Number"
+- "String"
+- "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UIStoryboardSegue"
 - "UIViewController"
 - "ViewController"
+- "today"
+- "tomorrow"
+- "yesterday"
 depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "setTitleColor"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textAlignment"]
+- ["s7CVarArgP", "Meal"]
+- !private ["s7CVarArgP", "String"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "blue"]
+- !private ["s7CVarArgP", "breakfastRecommend"]
+- !private ["s7CVarArgP", "destination"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
-- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "dinnerRecommend"]
+- !private ["s7CVarArgP", "getToday"]
+- !private ["s7CVarArgP", "getTomorrow"]
+- !private ["s7CVarArgP", "getYesterday"]
+- !private ["s7CVarArgP", "gray"]
+- !private ["s7CVarArgP", "identifier"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNavigationBarHidden"]
+- !private ["s7CVarArgP", "kcalsLeft"]
+- !private ["s7CVarArgP", "lunchRecommend"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "printNumbers"]
+- !private ["s7CVarArgP", "recommendedCalories"]
+- !private ["s7CVarArgP", "setTitleColor"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textAlignment"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "today"]
+- !private ["s7CVarArgP", "todayButton"]
+- !private ["s7CVarArgP", "tomorrow"]
+- !private ["s7CVarArgP", "tomorrowButton"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "yesterday"]
+- !private ["s7CVarArgP", "yesterdayButton"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Meal"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
+- !private ["s28CustomDebugStringConvertibleP", "breakfastRecommend"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "dinnerRecommend"]
+- !private ["s28CustomDebugStringConvertibleP", "getToday"]
+- !private ["s28CustomDebugStringConvertibleP", "getTomorrow"]
+- !private ["s28CustomDebugStringConvertibleP", "getYesterday"]
+- !private ["s28CustomDebugStringConvertibleP", "gray"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNavigationBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "kcalsLeft"]
+- !private ["s28CustomDebugStringConvertibleP", "lunchRecommend"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "printNumbers"]
+- !private ["s28CustomDebugStringConvertibleP", "recommendedCalories"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitleColor"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "today"]
+- !private ["s28CustomDebugStringConvertibleP", "todayButton"]
+- !private ["s28CustomDebugStringConvertibleP", "tomorrow"]
+- !private ["s28CustomDebugStringConvertibleP", "tomorrowButton"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "yesterday"]
+- !private ["s28CustomDebugStringConvertibleP", "yesterdayButton"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "blue"]
+- !private ["s17CustomReflectableP", "gray"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Meal"]
+- !private ["s23CustomStringConvertibleP", "String"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "blue"]
+- !private ["s23CustomStringConvertibleP", "breakfastRecommend"]
+- !private ["s23CustomStringConvertibleP", "destination"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "dinnerRecommend"]
+- !private ["s23CustomStringConvertibleP", "getToday"]
+- !private ["s23CustomStringConvertibleP", "getTomorrow"]
+- !private ["s23CustomStringConvertibleP", "getYesterday"]
+- !private ["s23CustomStringConvertibleP", "gray"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNavigationBarHidden"]
+- !private ["s23CustomStringConvertibleP", "kcalsLeft"]
+- !private ["s23CustomStringConvertibleP", "lunchRecommend"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "printNumbers"]
+- !private ["s23CustomStringConvertibleP", "recommendedCalories"]
+- !private ["s23CustomStringConvertibleP", "setTitleColor"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textAlignment"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "today"]
+- !private ["s23CustomStringConvertibleP", "todayButton"]
+- !private ["s23CustomStringConvertibleP", "tomorrow"]
+- !private ["s23CustomStringConvertibleP", "tomorrowButton"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "yesterday"]
+- !private ["s23CustomStringConvertibleP", "yesterdayButton"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "blue"]
+- !private ["s9DecodableP", "gray"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "blue"]
+- !private ["s9EncodableP", "gray"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "Meal"]
+- !private ["s9EquatableP", "String"]
 - ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "blue"]
+- !private ["s9EquatableP", "breakfastRecommend"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "destination"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
-- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "dinnerRecommend"]
+- !private ["s9EquatableP", "getToday"]
+- !private ["s9EquatableP", "getTomorrow"]
+- !private ["s9EquatableP", "getYesterday"]
+- !private ["s9EquatableP", "gray"]
+- !private ["s9EquatableP", "identifier"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isNavigationBarHidden"]
+- !private ["s9EquatableP", "kcalsLeft"]
+- !private ["s9EquatableP", "lunchRecommend"]
+- !private ["s9EquatableP", "navigationController"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "printNumbers"]
+- !private ["s9EquatableP", "recommendedCalories"]
+- !private ["s9EquatableP", "setTitleColor"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textAlignment"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "today"]
+- !private ["s9EquatableP", "todayButton"]
+- !private ["s9EquatableP", "tomorrow"]
+- !private ["s9EquatableP", "tomorrowButton"]
 - !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "yesterday"]
+- !private ["s9EquatableP", "yesterdayButton"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "blue"]
+- !private ["s23ExpressibleByNilLiteralP", "gray"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Meal"]
+- !private ["s8HashableP", "String"]
 - ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "blue"]
+- !private ["s8HashableP", "breakfastRecommend"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "destination"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
-- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "dinnerRecommend"]
+- !private ["s8HashableP", "getToday"]
+- !private ["s8HashableP", "getTomorrow"]
+- !private ["s8HashableP", "getYesterday"]
+- !private ["s8HashableP", "gray"]
+- !private ["s8HashableP", "identifier"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isNavigationBarHidden"]
+- !private ["s8HashableP", "kcalsLeft"]
+- !private ["s8HashableP", "lunchRecommend"]
+- !private ["s8HashableP", "navigationController"]
+- !private ["s8HashableP", "printNumbers"]
+- !private ["s8HashableP", "recommendedCalories"]
+- !private ["s8HashableP", "setTitleColor"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textAlignment"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "today"]
+- !private ["s8HashableP", "todayButton"]
+- !private ["s8HashableP", "tomorrow"]
+- !private ["s8HashableP", "tomorrowButton"]
 - !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "yesterday"]
+- !private ["s8HashableP", "yesterdayButton"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["7mealify4MealC", "init"]
+- !private ["7mealify23MealTableViewControllerC", "title"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "Meal"]
+- !private ["So8NSCodingP", "String"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "blue"]
+- !private ["So8NSCodingP", "breakfastRecommend"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "dinnerRecommend"]
+- !private ["So8NSCodingP", "getToday"]
+- !private ["So8NSCodingP", "getTomorrow"]
+- !private ["So8NSCodingP", "getYesterday"]
+- !private ["So8NSCodingP", "gray"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isNavigationBarHidden"]
+- !private ["So8NSCodingP", "kcalsLeft"]
+- !private ["So8NSCodingP", "lunchRecommend"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "printNumbers"]
+- !private ["So8NSCodingP", "recommendedCalories"]
+- !private ["So8NSCodingP", "setTitleColor"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textAlignment"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "today"]
+- !private ["So8NSCodingP", "todayButton"]
+- !private ["So8NSCodingP", "tomorrow"]
+- !private ["So8NSCodingP", "tomorrowButton"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "yesterday"]
+- !private ["So8NSCodingP", "yesterdayButton"]
+- !private ["So9NSCopyingP", "blue"]
+- !private ["So9NSCopyingP", "gray"]
+- ["So26NSExtensionRequestHandlingP", "Meal"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "breakfastRecommend"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "dinnerRecommend"]
+- !private ["So26NSExtensionRequestHandlingP", "getToday"]
+- !private ["So26NSExtensionRequestHandlingP", "getTomorrow"]
+- !private ["So26NSExtensionRequestHandlingP", "getYesterday"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "isNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "kcalsLeft"]
+- !private ["So26NSExtensionRequestHandlingP", "lunchRecommend"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "printNumbers"]
+- !private ["So26NSExtensionRequestHandlingP", "recommendedCalories"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "today"]
+- !private ["So26NSExtensionRequestHandlingP", "todayButton"]
+- !private ["So26NSExtensionRequestHandlingP", "tomorrow"]
+- !private ["So26NSExtensionRequestHandlingP", "tomorrowButton"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "yesterday"]
+- !private ["So26NSExtensionRequestHandlingP", "yesterdayButton"]
+- !private ["So21NSItemProviderReadingP", "blue"]
+- !private ["So21NSItemProviderReadingP", "gray"]
+- !private ["So21NSItemProviderWritingP", "blue"]
+- !private ["So21NSItemProviderWritingP", "gray"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Meal"]
+- !private ["So8NSObjectC", "MealTableViewController"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "blue"]
+- ["So8NSObjectC", "breakfastRecommend"]
+- ["So8NSObjectC", "dayAfter"]
+- ["So8NSObjectC", "dayBefore"]
+- ["So8NSObjectC", "dayNow"]
+- !private ["So8NSObjectC", "destination"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "dinnerRecommend"]
+- ["So8NSObjectC", "getToday"]
+- ["So8NSObjectC", "getTomorrow"]
+- ["So8NSObjectC", "getYesterday"]
+- !private ["So8NSObjectC", "gray"]
+- !private ["So8NSObjectC", "identifier"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isNavigationBarHidden"]
+- ["So8NSObjectC", "kcalsLeft"]
+- ["So8NSObjectC", "lunchRecommend"]
+- !private ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "prepare"]
+- ["So8NSObjectC", "printNumbers"]
+- ["So8NSObjectC", "recommendedCalories"]
+- !private ["So8NSObjectC", "setTitleColor"]
+- ["So8NSObjectC", "testMeal"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textAlignment"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "today"]
+- ["So8NSObjectC", "todayButton"]
+- !private ["So8NSObjectC", "tomorrow"]
+- ["So8NSObjectC", "tomorrowButton"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "yesterday"]
+- ["So8NSObjectC", "yesterdayButton"]
+- ["So16NSObjectProtocolP", "Meal"]
+- !private ["So16NSObjectProtocolP", "String"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "blue"]
+- !private ["So16NSObjectProtocolP", "breakfastRecommend"]
+- !private ["So16NSObjectProtocolP", "destination"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "dinnerRecommend"]
+- !private ["So16NSObjectProtocolP", "getToday"]
+- !private ["So16NSObjectProtocolP", "getTomorrow"]
+- !private ["So16NSObjectProtocolP", "getYesterday"]
+- !private ["So16NSObjectProtocolP", "gray"]
+- !private ["So16NSObjectProtocolP", "identifier"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isNavigationBarHidden"]
+- !private ["So16NSObjectProtocolP", "kcalsLeft"]
+- !private ["So16NSObjectProtocolP", "lunchRecommend"]
+- !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "printNumbers"]
+- !private ["So16NSObjectProtocolP", "recommendedCalories"]
+- !private ["So16NSObjectProtocolP", "setTitleColor"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textAlignment"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "today"]
+- !private ["So16NSObjectProtocolP", "todayButton"]
+- !private ["So16NSObjectProtocolP", "tomorrow"]
+- !private ["So16NSObjectProtocolP", "tomorrowButton"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "yesterday"]
+- !private ["So16NSObjectProtocolP", "yesterdayButton"]
+- !private ["So14NSSecureCodingP", "blue"]
+- !private ["So14NSSecureCodingP", "gray"]
+- !private ["SC15NSTextAlignmentO", "center"]
+- !private ["7mealify6NumberC", "bCals"]
+- !private ["7mealify6NumberC", "dCals"]
+- ["7mealify6NumberC", "init"]
+- !private ["7mealify6NumberC", "kCals"]
+- !private ["7mealify6NumberC", "lCals"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["Sq", "blue"]
+- !private ["Sq", "gray"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "center"]
+- !private ["s16RawRepresentableP", "normal"]
+- ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "normal"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitleColor"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitleColor"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
+- !private ["So12UIAppearanceP", "setTitleColor"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textAlignment"]
+- ["So21UIAppearanceContainerP", "Meal"]
+- !private ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "breakfastRecommend"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "dinnerRecommend"]
+- !private ["So21UIAppearanceContainerP", "getToday"]
+- !private ["So21UIAppearanceContainerP", "getTomorrow"]
+- !private ["So21UIAppearanceContainerP", "getYesterday"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "kcalsLeft"]
+- !private ["So21UIAppearanceContainerP", "lunchRecommend"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "printNumbers"]
+- !private ["So21UIAppearanceContainerP", "recommendedCalories"]
+- !private ["So21UIAppearanceContainerP", "setTitleColor"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textAlignment"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "today"]
+- !private ["So21UIAppearanceContainerP", "todayButton"]
+- !private ["So21UIAppearanceContainerP", "tomorrow"]
+- !private ["So21UIAppearanceContainerP", "tomorrowButton"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "yesterday"]
+- !private ["So21UIAppearanceContainerP", "yesterdayButton"]
+- !private ["So8UIButtonC", "setTitleColor"]
+- !private ["So7UIColorC", "blue"]
+- !private ["So7UIColorC", "gray"]
+- ["So18UIContentContainerP", "Meal"]
+- !private ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "breakfastRecommend"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "dinnerRecommend"]
+- !private ["So18UIContentContainerP", "getToday"]
+- !private ["So18UIContentContainerP", "getTomorrow"]
+- !private ["So18UIContentContainerP", "getYesterday"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "isNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "kcalsLeft"]
+- !private ["So18UIContentContainerP", "lunchRecommend"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "printNumbers"]
+- !private ["So18UIContentContainerP", "recommendedCalories"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "today"]
+- !private ["So18UIContentContainerP", "todayButton"]
+- !private ["So18UIContentContainerP", "tomorrow"]
+- !private ["So18UIContentContainerP", "tomorrowButton"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "yesterday"]
+- !private ["So18UIContentContainerP", "yesterdayButton"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
+- !private ["So9UIControlC", "setTitleColor"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "setTitleColor"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textAlignment"]
+- !private ["So13UIDynamicItemP", "setTitleColor"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textAlignment"]
+- ["So18UIFocusEnvironmentP", "Meal"]
+- !private ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "breakfastRecommend"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "dinnerRecommend"]
+- !private ["So18UIFocusEnvironmentP", "getToday"]
+- !private ["So18UIFocusEnvironmentP", "getTomorrow"]
+- !private ["So18UIFocusEnvironmentP", "getYesterday"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "kcalsLeft"]
+- !private ["So18UIFocusEnvironmentP", "lunchRecommend"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "printNumbers"]
+- !private ["So18UIFocusEnvironmentP", "recommendedCalories"]
+- !private ["So18UIFocusEnvironmentP", "setTitleColor"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textAlignment"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "today"]
+- !private ["So18UIFocusEnvironmentP", "todayButton"]
+- !private ["So18UIFocusEnvironmentP", "tomorrow"]
+- !private ["So18UIFocusEnvironmentP", "tomorrowButton"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "yesterday"]
+- !private ["So18UIFocusEnvironmentP", "yesterdayButton"]
+- !private ["So11UIFocusItemP", "setTitleColor"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textAlignment"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textAlignment"]
+- !private ["So22UINavigationControllerC", "isNavigationBarHidden"]
+- ["So30UIPasteConfigurationSupportingP", "Meal"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "breakfastRecommend"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "dinnerRecommend"]
+- !private ["So30UIPasteConfigurationSupportingP", "getToday"]
+- !private ["So30UIPasteConfigurationSupportingP", "getTomorrow"]
+- !private ["So30UIPasteConfigurationSupportingP", "getYesterday"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "kcalsLeft"]
+- !private ["So30UIPasteConfigurationSupportingP", "lunchRecommend"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "printNumbers"]
+- !private ["So30UIPasteConfigurationSupportingP", "recommendedCalories"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitleColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "today"]
+- !private ["So30UIPasteConfigurationSupportingP", "todayButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "tomorrow"]
+- !private ["So30UIPasteConfigurationSupportingP", "tomorrowButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "yesterday"]
+- !private ["So30UIPasteConfigurationSupportingP", "yesterdayButton"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "Meal"]
+- !private ["So11UIResponderC", "MealTableViewController"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "breakfastRecommend"]
+- ["So11UIResponderC", "dayAfter"]
+- ["So11UIResponderC", "dayBefore"]
+- ["So11UIResponderC", "dayNow"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "dinnerRecommend"]
+- ["So11UIResponderC", "getToday"]
+- ["So11UIResponderC", "getTomorrow"]
+- ["So11UIResponderC", "getYesterday"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isNavigationBarHidden"]
+- ["So11UIResponderC", "kcalsLeft"]
+- ["So11UIResponderC", "lunchRecommend"]
+- !private ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "prepare"]
+- ["So11UIResponderC", "printNumbers"]
+- ["So11UIResponderC", "recommendedCalories"]
+- !private ["So11UIResponderC", "setTitleColor"]
+- ["So11UIResponderC", "testMeal"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textAlignment"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "today"]
+- ["So11UIResponderC", "todayButton"]
+- !private ["So11UIResponderC", "tomorrow"]
+- ["So11UIResponderC", "tomorrowButton"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So11UIResponderC", "yesterday"]
+- ["So11UIResponderC", "yesterdayButton"]
+- ["So30UIResponderStandardEditActionsP", "Meal"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "breakfastRecommend"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "dinnerRecommend"]
+- !private ["So30UIResponderStandardEditActionsP", "getToday"]
+- !private ["So30UIResponderStandardEditActionsP", "getTomorrow"]
+- !private ["So30UIResponderStandardEditActionsP", "getYesterday"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "kcalsLeft"]
+- !private ["So30UIResponderStandardEditActionsP", "lunchRecommend"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "printNumbers"]
+- !private ["So30UIResponderStandardEditActionsP", "recommendedCalories"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitleColor"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "today"]
+- !private ["So30UIResponderStandardEditActionsP", "todayButton"]
+- !private ["So30UIResponderStandardEditActionsP", "tomorrow"]
+- !private ["So30UIResponderStandardEditActionsP", "tomorrowButton"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "yesterday"]
+- !private ["So30UIResponderStandardEditActionsP", "yesterdayButton"]
+- !private ["So20UIScrollViewDelegateP", "title"]
+- !private ["So23UISearchResultsUpdatingP", "title"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitleColor"]
+- ["So16UIStateRestoringP", "Meal"]
+- !private ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "breakfastRecommend"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "dinnerRecommend"]
+- !private ["So16UIStateRestoringP", "getToday"]
+- !private ["So16UIStateRestoringP", "getTomorrow"]
+- !private ["So16UIStateRestoringP", "getYesterday"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "isNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "kcalsLeft"]
+- !private ["So16UIStateRestoringP", "lunchRecommend"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "printNumbers"]
+- !private ["So16UIStateRestoringP", "recommendedCalories"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "today"]
+- !private ["So16UIStateRestoringP", "todayButton"]
+- !private ["So16UIStateRestoringP", "tomorrow"]
+- !private ["So16UIStateRestoringP", "tomorrowButton"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "yesterday"]
+- !private ["So16UIStateRestoringP", "yesterdayButton"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So21UITableViewControllerC", "title"]
+- !private ["So21UITableViewDataSourceP", "title"]
+- !private ["So19UITableViewDelegateP", "title"]
+- ["So18UITraitEnvironmentP", "Meal"]
+- !private ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "breakfastRecommend"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "dinnerRecommend"]
+- !private ["So18UITraitEnvironmentP", "getToday"]
+- !private ["So18UITraitEnvironmentP", "getTomorrow"]
+- !private ["So18UITraitEnvironmentP", "getYesterday"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "kcalsLeft"]
+- !private ["So18UITraitEnvironmentP", "lunchRecommend"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "printNumbers"]
+- !private ["So18UITraitEnvironmentP", "recommendedCalories"]
+- !private ["So18UITraitEnvironmentP", "setTitleColor"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textAlignment"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "today"]
+- !private ["So18UITraitEnvironmentP", "todayButton"]
+- !private ["So18UITraitEnvironmentP", "tomorrow"]
+- !private ["So18UITraitEnvironmentP", "tomorrowButton"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "yesterday"]
+- !private ["So18UITraitEnvironmentP", "yesterdayButton"]
+- !private ["So6UIViewC", "setTitleColor"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textAlignment"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "Meal"]
+- !private ["So16UIViewControllerC", "MealTableViewController"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "breakfastRecommend"]
+- ["So16UIViewControllerC", "dayAfter"]
+- ["So16UIViewControllerC", "dayBefore"]
+- ["So16UIViewControllerC", "dayNow"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "dinnerRecommend"]
+- ["So16UIViewControllerC", "getToday"]
+- ["So16UIViewControllerC", "getTomorrow"]
+- ["So16UIViewControllerC", "getYesterday"]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isNavigationBarHidden"]
+- ["So16UIViewControllerC", "kcalsLeft"]
+- ["So16UIViewControllerC", "lunchRecommend"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "prepare"]
+- ["So16UIViewControllerC", "printNumbers"]
+- ["So16UIViewControllerC", "recommendedCalories"]
+- ["So16UIViewControllerC", "testMeal"]
+- !private ["So16UIViewControllerC", "title"]
+- !private ["So16UIViewControllerC", "today"]
+- ["So16UIViewControllerC", "todayButton"]
+- !private ["So16UIViewControllerC", "tomorrow"]
+- ["So16UIViewControllerC", "tomorrowButton"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "yesterday"]
+- ["So16UIViewControllerC", "yesterdayButton"]
+- ["7mealify14ViewControllerC", "Int"]
+- ["7mealify14ViewControllerC", "Meal"]
+- !private ["7mealify14ViewControllerC", "MealTableViewController"]
+- ["7mealify14ViewControllerC", "String"]
+- ["7mealify14ViewControllerC", "UIButton"]
+- ["7mealify14ViewControllerC", "UILabel"]
+- ["7mealify14ViewControllerC", "UIStoryboardSegue"]
+- ["7mealify14ViewControllerC", "breakfastRecommend"]
+- ["7mealify14ViewControllerC", "dayAfter"]
+- ["7mealify14ViewControllerC", "dayBefore"]
+- ["7mealify14ViewControllerC", "dayNow"]
 - ["7mealify14ViewControllerC", "deinit"]
 - ["7mealify14ViewControllerC", "didReceiveMemoryWarning"]
+- ["7mealify14ViewControllerC", "dinnerRecommend"]
+- !private ["7mealify14ViewControllerC", "getToday"]
+- !private ["7mealify14ViewControllerC", "getTomorrow"]
+- !private ["7mealify14ViewControllerC", "getYesterday"]
 - ["7mealify14ViewControllerC", "init"]
+- ["7mealify14ViewControllerC", "kcalsLeft"]
+- ["7mealify14ViewControllerC", "lunchRecommend"]
+- !private ["7mealify14ViewControllerC", "navigationController"]
+- ["7mealify14ViewControllerC", "prepare"]
+- !private ["7mealify14ViewControllerC", "printNumbers"]
+- !private ["7mealify14ViewControllerC", "recommendedCalories"]
+- ["7mealify14ViewControllerC", "testMeal"]
+- !private ["7mealify14ViewControllerC", "today"]
+- ["7mealify14ViewControllerC", "todayButton"]
+- !private ["7mealify14ViewControllerC", "tomorrow"]
+- ["7mealify14ViewControllerC", "tomorrowButton"]
 - ["7mealify14ViewControllerC", "viewDidLoad"]
+- !private ["7mealify14ViewControllerC", "yesterday"]
+- ["7mealify14ViewControllerC", "yesterdayButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitleColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textAlignment"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "blue"]
+- !private ["s26_ExpressibleByColorLiteralP", "gray"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Meal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "breakfastRecommend"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dinnerRecommend"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getToday"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTomorrow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getYesterday"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNavigationBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kcalsLeft"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lunchRecommend"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "printNumbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recommendedCalories"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitleColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "today"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "todayButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tomorrow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tomorrowButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yesterday"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yesterdayButton"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "blue"]
+- !private ["s21_ObjectiveCBridgeableP", "gray"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
 - "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "7mealify4MealC"
+- !private "7mealify23MealTableViewControllerC"
+- "s10MirrorPathP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "SC15NSTextAlignmentO"
+- "7mealify6NumberC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC14UIControlStateV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- !private "So22UINavigationControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So23UISearchResultsUpdatingP"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So21UITableViewControllerC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
 - "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "7mealify14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -127,30 +860,66 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/justinlew/Documents/SFU/CMPT276/justinlew.mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -161,4 +930,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "c5cd22f7ef6c6e57db205405f844f02a"
+interface-hash: "dc03042756aac5f1c298b5d733a250a4"

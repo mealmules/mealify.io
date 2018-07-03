@@ -8,11 +8,23 @@
 
 import UIKit
 import Charts
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 class ChartsViewController: UIViewController, ChartViewDelegate {
     
     
     var days : [String]!
+    var today = Date()
+    let dateFormatter = DateFormatter()
+    var todayFormatted = ""
+    var ref : DatabaseReference?
+    let cal = Calendar.current
+    var calories : [Double] = []
+    var carbohydrates : [Double] = []
+    var proteins : [Double] = []
+    var fats : [Double] = []
     
     @IBOutlet weak var lineChartView: LineChartView!
     
@@ -22,18 +34,46 @@ class ChartsViewController: UIViewController, ChartViewDelegate {
         // Here is where we are supposed to query from the database of statistics for the past 10 days
         // Creating dummy data
         
-        days = ["Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10"]
-        let calories = [200.0 , 150.0, 75.0, 300.0, 250.0, 200.0 , 150.0, 75.0, 300.0, 250.0]
-        let carbohydrates = calories.map { $0 / 2}
-        let fats = calories.map { $0 / 4 }
-        let proteins = calories.map { $0 / 3}
-        //        let carbohydrates = [100.0 , 150.0, 75.0, 300.0, 250.0, 200.0 , 150.0, 75.0, 300.0, 250.0]
-        //        let fats = [50.0 , 150.0, 75.0, 300.0, 250.0, 200.0 , 150.0, 75.0, 300.0, 250.0]
-        //        let proteins = [24.0 , 150.0, 75.0, 300.0, 250.0, 200.0 , 150.0, 75.0, 300.0, 250.0]
+//        days = ["Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10"]
+//        let calories = [200.0 , 150.0, 75.0, 300.0, 250.0, 200.0 , 150.0, 75.0, 300.0, 250.0]
+//        let carbohydrates = calories.map { $0 / 2}
+//        let fats = calories.map { $0 / 4 }
+//        let proteins = calories.map { $0 / 3}
+        
+        let userID = Auth.auth().currentUser?.uid
+        
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
+        todayFormatted = dateFormatter.string(from: today)
+        
+        ref = Database.database().reference().child("nutrientHistory").child(userID!)
+        
+        var dateArray : [String] = []
+        var dateInitialize = ""
+        for i in 1...7 {
+            dateInitialize = self.dateFormatter.string(from: self.cal.date(byAdding: .day, value: -i, to: self.today)!)
+            //            print(dateInitialize)
+            dateArray.insert(dateInitialize, at: 0)
+            
+        }
+        
+        
+        ref?.observe(.value, with: { (snapshot) in
+            let snapDictionary = snapshot.value as? [String : AnyObject] ?? [:]
+            
+            for i in dateArray {
+                //                print(type(of: snapDictionary[i]!["carbohydrates"]!! as! Double))
+                self.carbohydrates.append(snapDictionary[i]!["carbohydrates"]!! as! Double)
+                self.calories.append(snapDictionary[i]!["kCals"]!! as! Double)
+                self.fats.append(snapDictionary[i]!["fats"]!! as! Double)
+                self.proteins.append(snapDictionary[i]!["proteins"]!! as! Double)
+            }
+            self.setChart(dataPoints: dateArray, values: self.calories, values2: self.carbohydrates, values3: self.fats, values4: self.proteins)
+        })
         
         
         
-        setChart(dataPoints: days, values: calories, values2: carbohydrates, values3: fats, values4: proteins)
+//        setChart(dataPoints: days, values: calories, values2: carbohydrates, values3: fats, values4: proteins)
         
         // Do any additional setup after loading the view.
     }
