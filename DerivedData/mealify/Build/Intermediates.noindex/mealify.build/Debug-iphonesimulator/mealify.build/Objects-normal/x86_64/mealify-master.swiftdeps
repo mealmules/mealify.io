@@ -1,10 +1,11 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "7f7f6a0a3ba93771952e8ca9d730b571"
-build_time: [1530605195, 475780000]
+build_time: [1530605667, 538296000]
 inputs:
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/mealify/New Group/addFoodViewController.swift": [9223372036, 854775807]
   "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController6.swift": [1530603673, 0]
-  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController3.swift": [1530603673, 0]
-  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewControllerRegister.swift": [1530605194, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController3.swift": [1530605544, 0]
+  "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewControllerRegister.swift": [1530605544, 0]
   "/Users/justinlew/Documents/iOS_dev/mealify.io/ViewController.swift": [1530603673, 0]
   "/Users/justinlew/Documents/iOS_dev/mealify.io/Numbers.swift": [1530603672, 0]
   "/Users/justinlew/Documents/iOS_dev/mealify.io/mealify/New Group/ChartsViewController.swift": [1530604572, 0]

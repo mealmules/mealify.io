@@ -401,6 +401,22 @@ SWIFT_CLASS("_TtC7mealify22ViewControllerRegister")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UINavigationItem;
+
+SWIFT_CLASS("_TtC7mealify21addFoodViewController")
+@interface addFoodViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified addFoodName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified addAmount;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified foodTableView;
+@property (nonatomic, weak) IBOutlet UINavigationItem * _Null_unspecified dateHeader;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)getNutrients:(id _Nonnull)sender;
+- (IBAction)logoutPressed:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif

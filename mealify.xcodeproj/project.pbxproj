@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		241016A220E4820C00E2E215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241016A120E4820B00E2E215 /* GoogleService-Info.plist */; };
+		24C9C8B420EB67E100082B56 /* addFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C9C8B320EB67E100082B56 /* addFoodViewController.swift */; };
 		24DE748420E7352300125859 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE748320E7352300125859 /* ChartsViewController.swift */; };
 		24DECF3720B9E4DF007F678D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DECF3620B9E4DF007F678D /* AppDelegate.swift */; };
 		24DECF3920B9E4DF007F678D /* ViewControllerJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DECF3820B9E4DF007F678D /* ViewControllerJ.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		241016A120E4820B00E2E215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24C9C8B320EB67E100082B56 /* addFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addFoodViewController.swift; sourceTree = "<group>"; };
 		24DE748320E7352300125859 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		24DECF3320B9E4DF007F678D /* mealify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DECF3620B9E4DF007F678D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		24DE748020E7347400125859 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				24C9C8B320EB67E100082B56 /* addFoodViewController.swift */,
 				24DECF3820B9E4DF007F678D /* ViewControllerJ.swift */,
 				24DE748320E7352300125859 /* ChartsViewController.swift */,
 			);
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C9C8B420EB67E100082B56 /* addFoodViewController.swift in Sources */,
 				7D0991A620EAD7F700C3EE56 /* ViewController6.swift in Sources */,
 				7D0991A520EAD7F700C3EE56 /* ViewController3.swift in Sources */,
 				7D0991BE20EAECD800C3EE56 /* ViewControllerRegister.swift in Sources */,

@@ -15,15 +15,31 @@ class ViewController3: UIViewController {
     
     @IBOutlet weak var passwordtext: UITextField!
     
+    var today = Date()
+    let dateFormatter = DateFormatter()
+    let cal = Calendar.current
+    var todayFormatted = ""
+    var ref : DatabaseReference?
+    
     
     @IBAction func loginbutton(_ sender: UIButton) {
         if let email = emailtext.text, let pass = passwordtext.text{
             Auth.auth().signIn(withEmail: email, password: pass){
                 (user,error) in
                 if let u = user{
-                    print("login successful, correct info!")
+                    print("Log in successful")
+                    let userID = Auth.auth().currentUser?.uid
+                    
+                    self.ref?.child("nutrientHistory").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
+                        if snapshot.hasChild(self.todayFormatted) {
+                            
+                        } else {
+                            self.ref?.child("nutrientHistory").child(userID!).child(self.todayFormatted).setValue(["kCals": 0, "proteins": 0, "fats": 0, "carbohydrates": 0])
+                            
+                        }
+                    })
                     self.performSegue(withIdentifier: "loggedin", sender: self)
-                }else{
+                } else {
                     print(error)
                 }
             }
@@ -35,6 +51,11 @@ class ViewController3: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        ref = Database.database().reference()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
+        todayFormatted = dateFormatter.string(from: today)
     }
 
     override func didReceiveMemoryWarning() {
