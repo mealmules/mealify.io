@@ -15,24 +15,49 @@ class ViewControllerRegister: UIViewController {
     
     @IBOutlet weak var passwordtext: UITextField!
     
+    var today = Date()
+    let dateFormatter = DateFormatter()
+    let cal = Calendar.current
+    var todayFormatted = ""
+    
+    var databaseRef : DatabaseReference?
     
     
     @IBAction func registerbutton(_ sender: Any) {
         if let email = emailtext.text, let pass = passwordtext.text{
             Auth.auth().createUser(withEmail: email, password: pass) { (authResult, error) in
                 if let u = authResult {
-                    print("its working")
+                    print("Registration complete!")
+                    
+                    self.todayFormatted = self.dateFormatter.string(from: self.today)
+                    
+                    let userID = (Auth.auth().currentUser?.uid)!
+                    
+                    
+                    var dateInitialize = ""
+                    for i in 0...7 {
+                        
+                        dateInitialize = self.dateFormatter.string(from: self.cal.date(byAdding: .day, value: -i, to: self.today)!)
+                        
+                        self.databaseRef?.child("nutrientHistory").child(userID).child(dateInitialize).setValue(["kCals": 0, "proteins": 0, "fats": 0, "carbohydrates": 0])
+                        
+                    }
                     self.performSegue(withIdentifier: "gotoqa", sender: self)
-                }else{
+                } else {
                     print(error)
                 }
             }
-            
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        databaseRef = Database.database().reference()
+        
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
+        todayFormatted = dateFormatter.string(from: today)
 
         // Do any additional setup after loading the view.
     }
