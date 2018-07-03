@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register" image="button_register"/>
                                 <connections>
-                                    <segue destination="voi-kX-ZXv" kind="show" id="4wh-TL-VeF"/>
+                                    <action selector="registerbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e1s-hs-tCB"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gmk-bc-Dkb">
@@ -65,6 +65,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="emailtext" destination="Gmk-bc-Dkb" id="xIa-Um-bDN"/>
+                        <outlet property="passwordtext" destination="6Qq-Sl-FE0" id="k7r-iO-cr8"/>
+                        <segue destination="voi-kX-ZXv" kind="show" identifier="gotoqa" id="LjZ-LN-p1e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -401,7 +406,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign up"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Dsm-hq-gVP"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Kv6-A2-mRT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNc-aS-hWi">
@@ -409,17 +414,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login" image="button_login (1)"/>
                                 <connections>
-                                    <segue destination="5ZK-zc-Mqb" kind="show" id="SXU-ke-Kbt"/>
+                                    <action selector="loginbutton:" destination="Cae-wl-QqE" eventType="touchUpInside" id="EFo-JN-oyi"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XsC-N2-QjB"/>
                     </view>
+                    <connections>
+                        <outlet property="emailtext" destination="jSe-H7-YRK" id="FX0-tP-uAk"/>
+                        <outlet property="passwordtext" destination="VOw-xi-dUX" id="WrC-cP-GEF"/>
+                        <segue destination="5ZK-zc-Mqb" kind="show" identifier="loggedin" id="Zqs-6z-aNU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jL7-zg-rvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5202.3999999999996" y="-484.40779610194909"/>
+            <point key="canvasLocation" x="-5382" y="-484"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="SJO-Zg-yO3">
@@ -867,16 +877,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="shn-Hn-fQh"/>
                     <connections>
-                        <outlet property="after" destination="D4H-s6-69C" id="XG3-gJ-P5O"/>
-                        <outlet property="before" destination="Jik-tl-Oot" id="M4M-pb-bw7"/>
-                        <outlet property="breakfastFoods" destination="zUF-Mk-W6H" id="3JN-eM-faD"/>
                         <outlet property="breakfastRecommend" destination="VUR-GB-mBv" id="Fuy-rI-h9e"/>
-                        <outlet property="dinnerFoods" destination="JGN-dq-kLr" id="lIY-FU-8tY"/>
                         <outlet property="dinnerRecommend" destination="hJH-hX-Pox" id="VO8-Eo-zI8"/>
                         <outlet property="kcalsLeft" destination="gHT-HQ-C0w" id="Srm-ZH-Ccr"/>
-                        <outlet property="lunchFoods" destination="U7I-md-tTm" id="SX6-i5-AeK"/>
                         <outlet property="lunchRecommend" destination="hXi-fv-wTv" id="rTF-k6-hAB"/>
-                        <outlet property="now" destination="ChK-a6-Wc7" id="2Y2-KX-GtQ"/>
                         <outlet property="todayButton" destination="ChK-a6-Wc7" id="5aq-A6-bDA"/>
                         <outlet property="tomorrowButton" destination="D4H-s6-69C" id="oe0-Ie-6AC"/>
                         <outlet property="yesterdayButton" destination="Jik-tl-Oot" id="XN3-1F-R5H"/>
@@ -944,7 +948,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36j-Ze-hcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4559" y="308"/>
+            <point key="canvasLocation" x="-4684" y="287"/>
         </scene>
     </scenes>
     <resources>
@@ -963,8 +967,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="DkV-Hq-Yet"/>
-        <segue reference="hfQ-ri-70k"/>
-        <segue reference="4wh-TL-VeF"/>
+        <segue reference="eUd-n0-H6C"/>
+        <segue reference="LjZ-LN-p1e"/>
         <segue reference="y90-L0-zf9"/>
         <segue reference="0Yy-5m-bX6"/>
         <segue reference="lA0-1Q-zkC"/>
