@@ -1,10 +1,28 @@
 //
-//  addFoodViewController.swift
-//  mealifyv2
+//  File: addFoodViewController.swift
+//  mealify
 //
-//  Created by Justin Lew on 2018-06-30.
+//  Worked on by Justin Lew on 2018-06-30.
 //  Copyright © 2018 mealmules. All rights reserved.
-//
+
+
+// ***************************************************
+// ******************  Overview **********************
+// ***************************************************
+//  This view controller makes two API calls using Alamofire
+//  The first API searches for the food when a user types in the text labelled "Food"
+//  The first API would give us a unique identifier named 'ndbno' which would be used in the second API call
+//  The second API call would give us the nutrients of the food typed in using the 'ndbno' identifier
+//  We multiple the returned nutrients by a factor given by the user labelled 'amount' then the array is stored in the Firebase database
+
+
+// **********************************************
+// ****************   BUGS   ********************
+// **********************************************
+// 1. If a user types in a food that has already been added then the new input would overwritted the existing one
+// 2. Imperfect search!!! When a user types in 'butter' then the search API would output 'peanut butter'. In a future version
+//          it would be better to let the user choose among multiple search results and add accordingly to the database
+
 
 import Foundation
 import UIKit
