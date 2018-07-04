@@ -1189,15 +1189,6 @@
                                     <segue destination="IPT-M8-MHO" kind="show" id="5fI-cG-UTp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4E-AF-TvJ">
-                                <rect key="frame" x="209" y="347" width="67" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="15"/>
-                                <state key="normal" title="More Food"/>
-                                <connections>
-                                    <segue destination="IPT-M8-MHO" kind="show" id="dZx-8m-DKQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaD-xi-eLT">
                                 <rect key="frame" x="209" y="532" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1205,6 +1196,15 @@
                                 <state key="normal" title="More Food"/>
                                 <connections>
                                     <segue destination="IPT-M8-MHO" kind="show" id="yRR-tE-oFJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4E-AF-TvJ">
+                                <rect key="frame" x="218" y="347" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="15"/>
+                                <state key="normal" title="More Food"/>
+                                <connections>
+                                    <segue destination="IPT-M8-MHO" kind="show" id="dZx-8m-DKQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1384,7 +1384,7 @@
         <image name="settings" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eTb-ES-tdF"/>
+        <segue reference="CkZ-ff-UQy"/>
         <segue reference="UD1-3e-QhE"/>
         <segue reference="sjZ-8o-7p6"/>
         <segue reference="dZx-8m-DKQ"/>
