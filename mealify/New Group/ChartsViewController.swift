@@ -1,10 +1,25 @@
 //
-//  ChartsViewController.swift
-//  mealifyv2
+//  File: ChartsViewController.swift
+//  mealify
 //
-//  Created by Justin Lew on 2018-06-29.
+//  Worked on by Justin Lew on 2018-06-29.
 //  Copyright © 2018 mealmules. All rights reserved.
 //
+// ***************************************************
+// ******************  Overview **********************
+// ***************************************************
+// This view controller utilizes the Charts API for iOS provided by the Githubt repository danielgindi
+// Link to the repository https://github.com/danielgindi/Charts
+// The chart displayed will require the users calories, carbohydrates, proteins and fats in their respective units (cals, and g) over a fixed period
+//  of time.
+// We will have to query from the database to obtain 4 arrays with calories, carbs, proteins, and diets and use that to call the setCharts function
+
+// **********************************************
+// ****************   BUGS   ********************
+// **********************************************
+// The set charts does not check to see if a nutrient array for a particular day (say July 1, 2018) exists
+// This will happen if the user has not logged in for at least a day
+
 
 import UIKit
 import Charts
