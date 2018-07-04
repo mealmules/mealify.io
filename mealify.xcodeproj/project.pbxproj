@@ -30,8 +30,19 @@
 		7D1989D620EBC05E00F3AE80 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1989D020EBC05E00F3AE80 /* MealTableViewCell.swift */; };
 		7DBF2EE020EB034700E06F4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DBF2EDF20EB034700E06F4C /* Info.plist */; };
 		7DBF2EE220EB035800E06F4C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF2EE120EB035700E06F4C /* Day.swift */; };
+		7DEC6AF820EC57EA00471017 /* ViewController3LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6AF720EC57EA00471017 /* ViewController3LoginTest.swift */; };
 		A8DBA99C84080F71630088AC /* Pods_mealify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DEC6AF220EC573C00471017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DECF2B20B9E4DF007F678D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DECF3220B9E4DF007F678D;
+			remoteInfo = mealify;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		241016A120E4820B00E2E215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -60,6 +71,9 @@
 		7D1989D020EBC05E00F3AE80 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = ../project3/Home/MealTableViewCell.swift; sourceTree = "<group>"; };
 		7DBF2EDF20EB034700E06F4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DBF2EE120EB035700E06F4C /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		7DEC6AED20EC573C00471017 /* mealifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEC6AF120EC573C00471017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DEC6AF720EC57EA00471017 /* ViewController3LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3LoginTest.swift; sourceTree = "<group>"; };
 		A205466FCBA1809B9C49BF0B /* Pods_mealify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC754CCEB0777F0F89C9D0F8 /* Pods-mealify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealify.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealify/Pods-mealify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +84,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DBA99C84080F71630088AC /* Pods_mealify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEC6AEA20EC573C00471017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +150,7 @@
 				7D09919720EAD7B000C3EE56 /* ViewController5.swift */,
 				7D09919A20EAD7D400C3EE56 /* ViewController6.swift */,
 				24DECF3520B9E4DF007F678D /* mealify */,
+				7DEC6AEE20EC573C00471017 /* mealifyTests */,
 				24DECF3420B9E4DF007F678D /* Products */,
 				E76E5383EA5A163AC83ED616 /* Pods */,
 				F6F5106A1E803866C082A655 /* Frameworks */,
@@ -139,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				24DECF3320B9E4DF007F678D /* mealify.app */,
+				7DEC6AED20EC573C00471017 /* mealifyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +179,15 @@
 				24DECF4220B9E4E1007F678D /* Info.plist */,
 			);
 			path = mealify;
+			sourceTree = "<group>";
+		};
+		7DEC6AEE20EC573C00471017 /* mealifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC6AF120EC573C00471017 /* Info.plist */,
+				7DEC6AF720EC57EA00471017 /* ViewController3LoginTest.swift */,
+			);
+			path = mealifyTests;
 			sourceTree = "<group>";
 		};
 		E76E5383EA5A163AC83ED616 /* Pods */ = {
@@ -197,18 +229,41 @@
 			productReference = 24DECF3320B9E4DF007F678D /* mealify.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7DEC6AEC20EC573C00471017 /* mealifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEC6AF620EC573C00471017 /* Build configuration list for PBXNativeTarget "mealifyTests" */;
+			buildPhases = (
+				7DEC6AE920EC573C00471017 /* Sources */,
+				7DEC6AEA20EC573C00471017 /* Frameworks */,
+				7DEC6AEB20EC573C00471017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DEC6AF320EC573C00471017 /* PBXTargetDependency */,
+			);
+			name = mealifyTests;
+			productName = mealifyTests;
+			productReference = 7DEC6AED20EC573C00471017 /* mealifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		24DECF2B20B9E4DF007F678D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Meal Mules";
 				TargetAttributes = {
 					24DECF3220B9E4DF007F678D = {
 						CreatedOnToolsVersion = 9.3.1;
+					};
+					7DEC6AEC20EC573C00471017 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 24DECF3220B9E4DF007F678D;
 					};
 				};
 			};
@@ -226,6 +281,7 @@
 			projectRoot = "";
 			targets = (
 				24DECF3220B9E4DF007F678D /* mealify */,
+				7DEC6AEC20EC573C00471017 /* mealifyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +296,13 @@
 				7DBF2EE020EB034700E06F4C /* Info.plist in Resources */,
 				24DECF3E20B9E4E1007F678D /* Assets.xcassets in Resources */,
 				24DECF3C20B9E4E0007F678D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEC6AEB20EC573C00471017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +385,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DEC6AE920EC573C00471017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEC6AF820EC57EA00471017 /* ViewController3LoginTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DEC6AF320EC573C00471017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DECF3220B9E4DF007F678D /* mealify */;
+			targetProxy = 7DEC6AF220EC573C00471017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		24DECF3A20B9E4E0007F678D /* Main.storyboard */ = {
@@ -496,6 +575,49 @@
 			};
 			name = Release;
 		};
+		7DEC6AF420EC573C00471017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mealifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mealmules.mealifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mealify.app/mealify";
+			};
+			name = Debug;
+		};
+		7DEC6AF520EC573C00471017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mealifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mealmules.mealifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mealify.app/mealify";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,6 +635,15 @@
 			buildConfigurations = (
 				24DECF4620B9E4E1007F678D /* Debug */,
 				24DECF4720B9E4E1007F678D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEC6AF620EC573C00471017 /* Build configuration list for PBXNativeTarget "mealifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEC6AF420EC573C00471017 /* Debug */,
+				7DEC6AF520EC573C00471017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

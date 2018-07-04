@@ -1,4 +1,16 @@
 # Uncomment the next line to define a global platform for your project
+target 'mealifyTests' do
+    inherit: search_paths
+    target 'mealifyTests' do
+        inherit: search_paths
+        pod 'Firebase/Core'
+        pod 'Firebase/Auth'
+        pod 'Firebase/Database'
+        pod 'Alamofire'
+        pod 'SwiftyJSON'
+        pod 'Charts'
+end
+
 platform :ios, '9.0'
 
 target 'mealify' do
