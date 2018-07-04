@@ -19,7 +19,6 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - !private "Database"
 - !private "FirebaseApp"
-- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -47,7 +46,6 @@ depends-member:
 - ["7mealify12AppDelegate2C", "deinit"]
 - ["7mealify12AppDelegate2C", "init"]
 - ["7mealify12AppDelegate2C", "window"]
-- !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s7CVarArgP", "Database"]
 - !private ["s7CVarArgP", "FirebaseApp"]
 - ["s7CVarArgP", ""]
@@ -67,10 +65,7 @@ depends-member:
 - !private ["s7CVarArgP", "database"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "reference"]
-- !private ["s7CVarArgP", "setValue"]
 - ["s7CVarArgP", "window"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "Database"]
 - !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -90,10 +85,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "database"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "reference"]
-- !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - ["s28CustomDebugStringConvertibleP", "window"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "Database"]
 - !private ["s23CustomStringConvertibleP", "FirebaseApp"]
 - ["s23CustomStringConvertibleP", ""]
@@ -113,14 +105,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "database"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "reference"]
-- !private ["s23CustomStringConvertibleP", "setValue"]
 - ["s23CustomStringConvertibleP", "window"]
 - !private ["So8DatabaseC", "database"]
 - !private ["So8DatabaseC", "reference"]
-- !private ["So13DatabaseQueryC", "setValue"]
-- !private ["So17DatabaseReferenceC", "setValue"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "Database"]
 - !private ["s9EquatableP", "FirebaseApp"]
 - ["s9EquatableP", ""]
@@ -140,11 +127,7 @@ depends-member:
 - !private ["s9EquatableP", "database"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "reference"]
-- !private ["s9EquatableP", "setValue"]
 - ["s9EquatableP", "window"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["So11FirebaseAppC", "configure"]
 - !private ["s8HashableP", "Database"]
 - !private ["s8HashableP", "FirebaseApp"]
@@ -165,10 +148,7 @@ depends-member:
 - !private ["s8HashableP", "database"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "reference"]
-- !private ["s8HashableP", "setValue"]
 - ["s8HashableP", "window"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "Database"]
 - !private ["So8NSObjectC", "FirebaseApp"]
@@ -191,7 +171,6 @@ depends-member:
 - !private ["So8NSObjectC", "database"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "reference"]
-- !private ["So8NSObjectC", "setValue"]
 - ["So8NSObjectC", "window"]
 - !private ["So16NSObjectProtocolP", "Database"]
 - !private ["So16NSObjectProtocolP", "FirebaseApp"]
@@ -212,14 +191,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "database"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "reference"]
-- !private ["So16NSObjectProtocolP", "setValue"]
 - ["So16NSObjectProtocolP", "window"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s8SequenceP", "init"]
-- !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
 - !private ["So21UIApplicationDelegateP", "Database"]
 - !private ["So21UIApplicationDelegateP", "FirebaseApp"]
 - ["So21UIApplicationDelegateP", ""]
@@ -291,11 +263,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "window"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Database"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseApp"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -315,56 +282,28 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "database"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "7mealify12AppDelegate2C"
-- !private "s23BidirectionalCollectionP"
 - "s7CVarArgP"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
-- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "So8DatabaseC"
-- !private "So13DatabaseQueryC"
-- !private "So17DatabaseReferenceC"
-- !private "s9DecodableP"
-- !private "s9EncodableP"
 - "s9EquatableP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "So11FirebaseAppC"
 - "s8HashableP"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
-- !private "SS"
-- !private "s14StringProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s21_ObjectiveCBridgeableP"
-- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
@@ -380,6 +319,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
@@ -424,6 +365,8 @@ depends-external:
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
@@ -433,6 +376,8 @@ depends-external:
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/justinlew/Documents/iOS_dev/mealify.io/DerivedData/mealify/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"

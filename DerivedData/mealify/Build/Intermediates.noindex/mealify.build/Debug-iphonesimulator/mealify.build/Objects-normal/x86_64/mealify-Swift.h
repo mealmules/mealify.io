@@ -250,8 +250,13 @@ SWIFT_CLASS("_TtC7mealify23MealTableViewController")
 SWIFT_CLASS("_TtC7mealify18MealViewController")
 @interface MealViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodCalories;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodFats;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodProteins;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified foodCarbohydrates;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -295,8 +300,14 @@ SWIFT_CLASS("_TtC7mealify14ViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified todayButton;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified tomorrowButton;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified yesterdayButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified breakfastFoods;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lunchFoods;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dinnerFoods;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified now;
 - (IBAction)dayNow:(id _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified before;
 - (IBAction)dayBefore:(id _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified after;
 - (IBAction)dayAfter:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;

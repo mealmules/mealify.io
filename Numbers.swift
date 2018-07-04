@@ -24,6 +24,10 @@ class Number {
     
     let date: DateN
     
+    var breakfastMeals = [Meal]()
+    var lunchMeals = [Meal]()
+    var dinnerMeals = [Meal]()
+    
     init(kCals: Int, bCals: Int, lCals: Int, dCals: Int){
         
         self.kCals = kCals

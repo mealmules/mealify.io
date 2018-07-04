@@ -11,11 +11,25 @@ import UIKit
 class MealTableViewController: UITableViewController {
     
     
-    //Mark: Properties
-    
     var meals = [Meal]()
     var filteredMeals = [Meal]()
     let searchController = UISearchController(searchResultsController: nil)
+    
+    //This adds new meals into the array.
+    //TODO:
+    //For now, they are sample meals, but can import meals from database later
+    private func loadSampleMeals() {
+        
+        let meal1 = Meal(name: "Caprese Salad", calories: 833, fats: 26, proteins: 89, carbs: 128)
+        let meal2 = Meal(name: "Chicken and Potatoes", calories: 833, fats: 26, proteins: 89, carbs: 128)
+        let meal3 = Meal(name: "Rice with Steak", calories: 833, fats: 26, proteins: 89, carbs: 128)
+        let meal4 = Meal(name: "Apple pie", calories: 833, fats: 26, proteins: 89, carbs: 128)
+        let meal5 = Meal(name: "Glass of milk", calories: 833, fats: 26, proteins: 89, carbs: 128)
+        let meal6 = Meal(name: "Bacon", calories: 833, fats: 26, proteins: 89, carbs: 128)
+        
+        meals += [meal1, meal2, meal3,meal4,meal5,meal6]
+        
+    }
     
     //Returns true or false, true being search bar is empty, false being it is not empty
     func searchBarIsEmpty() -> Bool {
@@ -43,9 +57,9 @@ class MealTableViewController: UITableViewController {
     @objc func back(sender: UIBarButtonItem) {
         
         //Functionality
-        
         //Hide the navigation bar again
         self.navigationController?.isNavigationBarHidden = true
+
         
         
         //This leads you back to the previous view controller.
@@ -172,17 +186,20 @@ class MealTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
         //connect to table view
         
         guard let selectedMealCell = sender as? MealTableViewCell else {
             fatalError("Unexpected sender: (String(describing: sender))")
         }
         
-        //Getting the selected recipe
+        //Getting the selected meal from the cell you clicked.
+        //If user clicked on one cell, the returned value will be the cell you clicked.
         guard let indexPath = tableView.indexPath(for: selectedMealCell) else {
             fatalError("The selected cell is not being displayed by the table")
         }
         
+        //Check to see if filtered is on or off, return object dependent on the filter (search bar)
         var selectedMeal = Meal()
         if isFiltering(){
             selectedMeal = filteredMeals[indexPath.row]
@@ -191,35 +208,43 @@ class MealTableViewController: UITableViewController {
             selectedMeal = meals[indexPath.row]
         }
         
-        let dest = segue.destination as! ViewController
+        //let dest = segue.destination as! ViewController
        
-        //Dest is the Home view. Change properties below
-        dest.testMeal = selectedMeal
+        
+        //If the identifier goes back to view controller, then update the foods within that view controller
+        if segue.identifier == "newFoods"{
+            
+            let dest = segue.destination as! MealViewController
+            
+            //If the breakfast section was pressed before, then update the breakfast foods
+            if self.title == "Breakfasts"{
+                dest.mealType = "Breakfasts"
+            }
+                //If the breakfast section was pressed before, then update the breakfast foods
+            else if self.title == "Lunches"{
+                dest.mealType = "Lunches"
+            }
+                //If the breakfast section was pressed before, then update the breakfast foods
+            else if self.title == "Dinners"{
+                
+                dest.mealType = "Dinners"
+            }
+            
+            dest.meal = selectedMeal
+            
+        }
+        
+        
         
         
         
 
     }
  
-    
-    //This adds new meals into the array.
-    //TODO:
-    //For now, they are sample meals, but can import meals from database later
-    private func loadSampleMeals() {
-        
-        let meal1 = Meal(name: "Caprese Salad")
-        let meal2 = Meal(name: "Chicken and Potatoes")
-        let meal3 = Meal(name: "Rice with Steak")
-        let meal4 = Meal(name: "Apple pie")
-        let meal5 = Meal(name: "Glass of milk")
-        let meal6 = Meal(name: "Bacon")
-            
-        meals += [meal1, meal2, meal3,meal4,meal5,meal6]
- 
-    }
 
 }
 
+//Extension for search bar
 extension MealTableViewController: UISearchResultsUpdating {
     // MARK: - UISearchResultsUpdating Delegate
     func updateSearchResults(for searchController: UISearchController) {
