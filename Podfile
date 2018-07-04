@@ -10,7 +10,10 @@ target 'mealifyTests' do
         pod 'SwiftyJSON'
         pod 'Charts'
 end
-
+    target 'MyAppTests' do
+        inherit! :search_paths
+        pod 'Firebase'
+    end
 platform :ios, '9.0'
 
 target 'mealify' do
