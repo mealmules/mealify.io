@@ -148,26 +148,36 @@ class addFoodViewController: UIViewController {
                         nutrientArray.append(amount * carbohydrates)
                     }
                 }
-                print(nutrientArray)
-                
                 
                 //find today's date
                 
                 self.todayFormatted = self.dateFormatter.string(from: self.today)
-                print(self.todayFormatted)
                 
                 
                 
                 //TODO: get currently logged in user's ID
                 
-                print((Auth.auth().currentUser?.uid)!)
                 let userID = (Auth.auth().currentUser?.uid)!
-                print(userID)
                 
                 //TODO: add to the database for the user
                 if let foodName = name.rawString() {
                     self.ref?.child("nutrientHistory").child(userID).child(self.todayFormatted).child(foodName).setValue(nutrientArray)
+                    self.ref?.child("nutrientHistory").child(userID).child(self.todayFormatted).observeSingleEvent(of: .value, with: { (snapshot) in
+                        let snapDictionary = snapshot.value as? [String : AnyObject] ?? [:]
+                        let currentCalories = snapDictionary["carbohydrates"]! as! Double
+                        let currentProteins = snapDictionary["proteins"]! as! Double
+                        let currentFats = snapDictionary["fats"]! as! Double
+                        let currentCarbohydrates = snapDictionary["carbohydrates"]! as! Double
+                        print(currentCalories)
+                        print(nutrientArray)
+                        self.self.ref?.child("nutrientHistory").child(userID).child(self.todayFormatted).updateChildValues(["kCals": currentCalories + nutrientArray[0], "proteins": currentProteins + nutrientArray[1], "fats": currentFats + nutrientArray[2], "carbohydrates": currentCarbohydrates + nutrientArray[3]])
+//
+                    })
                 }
+                
+//                ref?.child("nutrientHistory").child(user)
+                
+                
 
             } else {
                 print("Error \(response.result.error)")

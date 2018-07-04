@@ -16,10 +16,14 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
 - !private "*"
+- !private "+"
+- !private "??"
 - !private "Alamofire"
+- !private "AnyObject"
 - "AssignmentPrecedence"
 - !private "Auth"
 - !private "BooleanLiteralType"
+- !private "CastingPrecedence"
 - !private "Database"
 - "DatabaseReference"
 - "Date"
@@ -38,6 +42,7 @@ depends-top-level:
 - !private "print"
 depends-member:
 - !private ["Sa", "append"]
+- !private ["Sa", "subscript"]
 - !private ["So4AuthC", "auth"]
 - !private ["So4AuthC", "currentUser"]
 - !private ["So4AuthC", "signOut"]
@@ -71,6 +76,7 @@ depends-member:
 - !private ["s7CVarArgP", "getFoodReport"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "observeSingleEvent"]
 - !private ["s7CVarArgP", "popToRootViewController"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "ref"]
@@ -80,12 +86,15 @@ depends-member:
 - !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "signOut"]
 - !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "timeStyle"]
 - !private ["s7CVarArgP", "title"]
 - !private ["s7CVarArgP", "today"]
 - !private ["s7CVarArgP", "todayFormatted"]
 - !private ["s7CVarArgP", "uid"]
+- !private ["s7CVarArgP", "updateChildValues"]
+- !private ["s7CVarArgP", "value"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s10CollectionP", "append"]
 - ["s10CollectionP", "init"]
@@ -120,6 +129,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isSuccess"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "observeSingleEvent"]
 - !private ["s28CustomDebugStringConvertibleP", "popToRootViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "rawString"]
@@ -139,6 +149,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "today"]
 - !private ["s28CustomDebugStringConvertibleP", "todayFormatted"]
 - !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "updateChildValues"]
 - !private ["s28CustomDebugStringConvertibleP", "value"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
@@ -148,6 +159,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "append"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "Alamofire"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "Database"]
@@ -173,6 +185,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isSuccess"]
 - !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "observeSingleEvent"]
 - !private ["s23CustomStringConvertibleP", "popToRootViewController"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "rawString"]
@@ -192,16 +205,23 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "today"]
 - !private ["s23CustomStringConvertibleP", "todayFormatted"]
 - !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "updateChildValues"]
 - !private ["s23CustomStringConvertibleP", "value"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["SC13DataEventTypeO", "value"]
 - !private ["9Alamofire11DataRequestC", "responseJSON"]
 - !private ["9Alamofire12DataResponseV", "result"]
+- !private ["So12DataSnapshotC", "value"]
 - !private ["So8DatabaseC", "database"]
 - !private ["So8DatabaseC", "reference"]
 - !private ["So13DatabaseQueryC", "child"]
+- !private ["So13DatabaseQueryC", "observeSingleEvent"]
 - !private ["So13DatabaseQueryC", "setValue"]
+- !private ["So13DatabaseQueryC", "updateChildValues"]
 - !private ["So17DatabaseReferenceC", "child"]
+- !private ["So17DatabaseReferenceC", "observeSingleEvent"]
 - !private ["So17DatabaseReferenceC", "setValue"]
+- !private ["So17DatabaseReferenceC", "updateChildValues"]
 - ["10Foundation4DateV", "init"]
 - !private ["So13DateFormatterC", "dateStyle"]
 - ["So13DateFormatterC", "init"]
@@ -213,6 +233,7 @@ depends-member:
 - !private ["s9DecodableP", "rawString"]
 - !private ["s9DecodableP", "replacingOccurrences"]
 - !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
 - !private ["Sd", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
@@ -246,6 +267,7 @@ depends-member:
 - !private ["s9EquatableP", "medium"]
 - !private ["s9EquatableP", "navigationController"]
 - !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "observeSingleEvent"]
 - !private ["s9EquatableP", "popToRootViewController"]
 - !private ["s9EquatableP", "print"]
 - !private ["s9EquatableP", "rawString"]
@@ -263,6 +285,8 @@ depends-member:
 - !private ["s9EquatableP", "today"]
 - !private ["s9EquatableP", "todayFormatted"]
 - !private ["s9EquatableP", "uid"]
+- !private ["s9EquatableP", "updateChildValues"]
+- !private ["s9EquatableP", "value"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
@@ -327,6 +351,7 @@ depends-member:
 - !private ["s8HashableP", "medium"]
 - !private ["s8HashableP", "navigationController"]
 - !private ["s8HashableP", "none"]
+- !private ["s8HashableP", "observeSingleEvent"]
 - !private ["s8HashableP", "popToRootViewController"]
 - !private ["s8HashableP", "print"]
 - !private ["s8HashableP", "ref"]
@@ -342,6 +367,8 @@ depends-member:
 - !private ["s8HashableP", "today"]
 - !private ["s8HashableP", "todayFormatted"]
 - !private ["s8HashableP", "uid"]
+- !private ["s8HashableP", "updateChildValues"]
+- !private ["s8HashableP", "value"]
 - !private ["s8HashableP", "viewDidLoad"]
 - !private ["10SwiftyJSON0B0V", "init"]
 - !private ["10SwiftyJSON0B0V", "rawString"]
@@ -418,6 +445,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
 - !private ["So16NSMutableCopyingP", "replacingOccurrences"]
 - !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "AnyObject"]
 - !private ["So8NSObjectC", "Auth"]
 - !private ["So8NSObjectC", "Database"]
 - ["So8NSObjectC", "DatabaseReference"]
@@ -445,6 +473,7 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "logoutPressed"]
 - !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "observeSingleEvent"]
 - !private ["So8NSObjectC", "popToRootViewController"]
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "ref"]
@@ -460,8 +489,10 @@ depends-member:
 - ["So8NSObjectC", "today"]
 - ["So8NSObjectC", "todayFormatted"]
 - !private ["So8NSObjectC", "uid"]
+- !private ["So8NSObjectC", "updateChildValues"]
 - ["So8NSObjectC", "url"]
 - ["So8NSObjectC", "urlSearchFood"]
+- !private ["So8NSObjectC", "value"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "Alamofire"]
 - !private ["So16NSObjectProtocolP", "Auth"]
@@ -484,6 +515,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "getFoodReport"]
 - ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "observeSingleEvent"]
 - !private ["So16NSObjectProtocolP", "popToRootViewController"]
 - !private ["So16NSObjectProtocolP", "print"]
 - !private ["So16NSObjectProtocolP", "ref"]
@@ -499,6 +531,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "today"]
 - !private ["So16NSObjectProtocolP", "todayFormatted"]
 - !private ["So16NSObjectProtocolP", "uid"]
+- !private ["So16NSObjectProtocolP", "updateChildValues"]
+- !private ["So16NSObjectProtocolP", "value"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "replacingOccurrences"]
 - !private ["So8NSStringC", "replacingOccurrences"]
@@ -515,6 +549,7 @@ depends-member:
 - !private ["s16RawRepresentableP", "none"]
 - !private ["s16RawRepresentableP", "rawString"]
 - !private ["s16RawRepresentableP", "subscript"]
+- !private ["s16RawRepresentableP", "value"]
 - ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["9Alamofire7RequestC", "responseJSON"]
 - !private ["9Alamofire8ResponseP", "result"]
@@ -645,6 +680,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "todayFormatted"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "Alamofire"]
+- !private ["So11UIResponderC", "AnyObject"]
 - !private ["So11UIResponderC", "Auth"]
 - !private ["So11UIResponderC", "Database"]
 - ["So11UIResponderC", "DatabaseReference"]
@@ -756,6 +792,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Alamofire"]
+- !private ["So16UIViewControllerC", "AnyObject"]
 - !private ["So16UIViewControllerC", "Auth"]
 - !private ["So16UIViewControllerC", "Database"]
 - ["So16UIViewControllerC", "DatabaseReference"]
@@ -793,10 +830,12 @@ depends-member:
 - !private ["So4UserC", "uid"]
 - !private ["So8UserInfoP", "uid"]
 - !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
@@ -832,6 +871,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getFoodReport"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeSingleEvent"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "popToRootViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ref"]
@@ -847,14 +887,18 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "today"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "todayFormatted"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateChildValues"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "replacingOccurrences"]
 - !private ["7mealify21addFoodViewControllerC", "Alamofire"]
+- !private ["7mealify21addFoodViewControllerC", "AnyObject"]
 - !private ["7mealify21addFoodViewControllerC", "Auth"]
 - !private ["7mealify21addFoodViewControllerC", "Database"]
 - ["7mealify21addFoodViewControllerC", "DatabaseReference"]
@@ -900,14 +944,17 @@ depends-nominal:
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "SC13DataEventTypeO"
 - !private "9Alamofire11DataRequestC"
 - !private "9Alamofire12DataResponseV"
+- !private "So12DataSnapshotC"
 - !private "So8DatabaseC"
 - !private "So13DatabaseQueryC"
 - !private "So17DatabaseReferenceC"
 - "10Foundation4DateV"
 - "So13DateFormatterC"
 - "s9DecodableP"
+- !private "s10DictionaryV"
 - !private "Sd"
 - "s9EncodableP"
 - "s9EquatableP"

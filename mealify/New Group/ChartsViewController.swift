@@ -50,7 +50,7 @@ class ChartsViewController: UIViewController, ChartViewDelegate {
         
         var dateArray : [String] = []
         var dateInitialize = ""
-        for i in 1...7 {
+        for i in 0...7 {
             dateInitialize = self.dateFormatter.string(from: self.cal.date(byAdding: .day, value: -i, to: self.today)!)
             //            print(dateInitialize)
             dateArray.insert(dateInitialize, at: 0)
